@@ -67,7 +67,7 @@ msgstr "Alterações à função guardadas"
 
 #: app/controllers/administrate/access/RolesController.php:320
 msgid "Deleted role"
-msgstr "Função apagado"
+msgstr "Função apagada"
 
 #: app/controllers/administrate/access/UsersController.php:101
 msgid "Added user"
@@ -100,11 +100,11 @@ msgstr "Não existem utilizadores"
 
 #: app/controllers/administrate/access/UsersController.php:381
 msgid "The user does not exist"
-msgstr ""
+msgstr "O utilizador não existe"
 
 #: app/controllers/administrate/access/UsersController.php:414
 msgid "The registrations have been approved"
-msgstr ""
+msgstr "O registo foi aprovado"
 
 #: app/controllers/administrate/access/UsersController.php:417
 msgid "Please use the checkboxes to select registrations for approval"
@@ -178,7 +178,7 @@ msgstr "Metadado adicionado"
 
 #: app/controllers/administrate/setup/ElementsController.php:166
 msgid "Saved changes to metadata element"
-msgstr " Guardadas as alterações ao metadado"
+msgstr "Guardadas as alterações ao metadado"
 
 #: app/controllers/administrate/setup/ElementsController.php:273
 msgid "Setting %2 is not valid: %1"
@@ -210,7 +210,7 @@ msgstr "Localização adicionada"
 
 #: app/controllers/administrate/setup/LocalesController.php:61
 msgid "Saved changes to locale"
-msgstr "Gravar alteração de localização"
+msgstr "Gravadas alterações à localização"
 
 #: app/controllers/administrate/setup/LocalesController.php:104
 msgid "Could not delete locale: %1"
@@ -218,7 +218,7 @@ msgstr "Não foi possível apagar a localização: %1"
 
 #: app/controllers/administrate/setup/LocalesController.php:108
 msgid "Deleted locale"
-msgstr "Apagar localização"
+msgstr "Localização apagada"
 
 #: app/controllers/administrate/setup/RelationshipTypesController.php:82
 #: app/helpers/displayHelpers.php:286 app/models/ca_relationship_types.php:41
@@ -241,16 +241,16 @@ msgstr "Edição em lote %1 %2 com o conjunto %3"
 #: app/controllers/batch/MediaImportController.php:145
 msgid "Import all media, matching with existing records where possible"
 msgstr ""
-"Importar todos os mídia, correspondendo a registos existentes, sempre que "
+"Importar todos os conteúdos multimédia, correspondendo a registos existentes, sempre que "
 "possível"
 
 #: app/controllers/batch/MediaImportController.php:146
 msgid "Import only media that can be matched with existing records"
-msgstr "Importar só os mídia que correspondam a registos existentes"
+msgstr "Importar só os conteúdos multimédia que correspondam a registos existentes"
 
 #: app/controllers/batch/MediaImportController.php:147
 msgid "Import all media, creating new records for each"
-msgstr "Importar todas as imagens, criando um novo registo para cada ficheiro"
+msgstr "Importar todo os conteúdos multimédia, criando um novo registo para cada ficheiro"
 
 #: app/controllers/batch/MediaImportController.php:151
 msgid "Match using file name"
@@ -272,20 +272,20 @@ msgstr ""
 
 #: app/controllers/batch/MediaImportController.php:158
 msgid "starts with"
-msgstr ""
+msgstr "começa com"
 
 #: app/controllers/batch/MediaImportController.php:159
 msgid "ends with"
-msgstr ""
+msgstr "termina com"
 
 #: app/controllers/batch/MediaImportController.php:160
 msgid "contains"
-msgstr ""
+msgstr "contém"
 
 #: app/controllers/batch/MediaImportController.php:391
 #: app/helpers/displayHelpers.php:1862 app/conf/user_actions.conf:116
 msgid "Batch import media"
-msgstr "Importação de imagem em lotes"
+msgstr "Importação de conteúdos multimédia em lotes"
 
 #: app/controllers/batch/MediaImportController.php:516
 msgid "Cannot write file: directory %1 is not accessible"
@@ -305,7 +305,7 @@ msgstr "Ignorado %1 ficheiro"
 
 #: app/controllers/batch/MediaImportController.php:535
 msgid "Skipped %1 files"
-msgstr "Carregada %1 folha de cálculo"
+msgstr "Ignoradas %1 folha de cálculo"
 
 #: app/controllers/batch/MetadataImportController.php:129
 #: app/controllers/manage/MetadataExportController.php:94
@@ -315,7 +315,7 @@ msgstr "Carregada %1 folha de cálculo"
 #: app/controllers/batch/MetadataImportController.php:129
 #: app/controllers/manage/MetadataExportController.php:94
 msgid "Uploaded %1 worksheets"
-msgstr "Carregada %1 folhas de cálculo"
+msgstr "Carregadas %1 folhas de cálculo"
 
 #: app/controllers/batch/MetadataImportController.php:131
 #: app/controllers/manage/MetadataExportController.php:96
@@ -325,20 +325,20 @@ msgstr "Ignorada %1 folha de cálculo"
 #: app/controllers/batch/MetadataImportController.php:226
 #: app/controllers/manage/MetadataExportController.php:280
 msgid "Deleted importer"
-msgstr "Apagar a importação"
+msgstr "Importador apagado"
 
 #: app/controllers/batch/MetadataImportController.php:250
 msgid "Invalid importer"
-msgstr ""
+msgstr "Importador Inválido"
 
 #: app/controllers/editor/object_lots/ObjectLotEditorController.php:78
 msgid "Renumbered contents of lot"
-msgstr "Renumerar conteúdo do lote"
+msgstr "Conteúdo do lote renumerado"
 
 #: app/controllers/editor/object_lots/ObjectLotEditorController.php:94
 #: app/controllers/manage/sets/SetEditorController.php:196
 msgid "No media is available for download"
-msgstr "Não existem imagens disponíveis para transferência"
+msgstr "Não existem conteúdos multimédia disponíveis para transferência"
 
 #: app/controllers/editor/object_lots/ObjectLotEditorController.php:158
 #: app/controllers/manage/sets/SetEditorController.php:245
@@ -360,8 +360,8 @@ msgid ""
 "configuration and ensure there is at least one valid configuration for this "
 "type of editor."
 msgstr ""
-"Não há configuração disponível para este editor. Verifique a configuração do "
-"seu sistema e se existe pelo menos uma configuração válida para este tipo de "
+"Editor sem configuração disponível. Verifique a configuração do "
+"seu sistema garanta que existe pelo menos uma configuração válida para este tipo de "
 "editor."
 
 #: app/controllers/editor/objects/ObjectComponentController.php:219
@@ -423,7 +423,7 @@ msgstr "Pesquisa simples"
 
 #: app/controllers/find/RelatedListController.php:60
 msgid "user defined"
-msgstr ""
+msgstr "definido pelo utilizador"
 
 #: app/controllers/find/RelatedListController.php:116
 #: app/controllers/find/RelatedListController.php:121
@@ -570,7 +570,7 @@ msgstr "Objecto/representação inválida"
 
 #: app/controllers/library/CheckInController.php:82
 msgid "Borrowed by %1 on %2"
-msgstr "Emprestado a %1 a %2"
+msgstr "Emprestado a %1 em %2"
 
 #: app/controllers/library/CheckInController.php:110
 msgid "Returned <em>%1</em> (%2) borrowed by %3 on %4"
@@ -578,7 +578,7 @@ msgstr "Devolvido <em>%1</em> (%2) emprestado a %3 a %4"
 
 #: app/controllers/library/CheckInController.php:112
 msgid "Could not check in <em>%1</em> (%2): %3"
-msgstr "Não foi possível selecionar <em>%1</em> (%2): %3"
+msgstr "Não foi possível dar entrada <em>%1</em> (%2): %3"
 
 #: app/controllers/library/CheckInController.php:115
 #: app/controllers/library/CheckInController.php:118
@@ -685,7 +685,7 @@ msgstr "hoje"
 
 #: app/controllers/library/DashboardController.php:81
 msgid " and %1 more"
-msgstr "e %1 mais"
+msgstr "e mais %1"
 
 #: app/controllers/lookup/AttributeValueController.php:54
 msgid "Invalid element code"
@@ -693,7 +693,7 @@ msgstr "Código do elemento inválido"
 
 #: app/controllers/lookup/AttributeValueController.php:59
 msgid "Value suggestion is not supported for this metadata element"
-msgstr "O valor da sugestão não é suportado neste metadado"
+msgstr "Sugestão de valor não suportada para este metadado"
 
 #: app/controllers/lookup/AttributeValueController.php:64
 #: app/controllers/lookup/AttributeValueController.php:114
@@ -703,7 +703,7 @@ msgstr "Não tem acesso a este lote"
 
 #: app/controllers/lookup/AttributeValueController.php:70
 msgid "Element code is not bound to the specified table"
-msgstr "O elemento de código não está associado à tabela selecionada"
+msgstr "O código do elemento não está associado à tabela selecionada"
 
 #: app/controllers/lookup/GeoNamesController.php:81
 msgid ""
@@ -722,7 +722,7 @@ msgstr "Não foi possível estabelecer a ligação a GeoNames"
 #: app/controllers/lookup/InformationServiceController.php:60
 #: app/controllers/lookup/InformationServiceController.php:100
 msgid "ERROR: Invalid element_id"
-msgstr "ERRO: Inválido element_id"
+msgstr "ERRO: element_id inválido"
 
 #: app/controllers/lookup/InformationServiceController.php:70
 #: app/controllers/lookup/InformationServiceController.php:116
@@ -754,7 +754,7 @@ msgstr "Sem resultados para <em>%1</em>"
 
 #: app/controllers/lookup/TaxonomyController.php:183
 msgid "ERROR: uBio web service query failed."
-msgstr "ERRO: a consulta do serviço de internet uBio falhou."
+msgstr "ERRO: a consulta do web service uBio falhou."
 
 #: app/controllers/lookup/TaxonomyController.php:189
 msgid "ERROR: No uBio keycode in app.conf."
@@ -762,7 +762,7 @@ msgstr "ERRO: não existe código de acesso uBio em app.conf."
 
 #: app/controllers/manage/CommentsController.php:77
 msgid "There are no unmoderated comments"
-msgstr "Não há comentários a moderar"
+msgstr "Não existe comentários não moderados"
 
 #: app/controllers/manage/CommentsController.php:93
 #: app/controllers/manage/CommentsController.php:139
@@ -788,7 +788,7 @@ msgstr "O comentário não pode ser apagado"
 
 #: app/controllers/manage/CommentsController.php:152
 msgid "Your comments have been deleted"
-msgstr "Comentários eliminados"
+msgstr "Os seus comentários eliminados"
 
 #: app/controllers/manage/CommentsController.php:155
 msgid "Please use the checkboxes to select comments for deletion"
@@ -850,7 +850,7 @@ msgstr ""
 
 #: app/controllers/manage/TagsController.php:77
 msgid "There are no unmoderated tags"
-msgstr "Não existem etiquetas a moderar"
+msgstr "Não existem etiquetas não moderadas"
 
 #: app/controllers/manage/TagsController.php:94
 #: app/controllers/manage/TagsController.php:136
@@ -860,7 +860,7 @@ msgstr "Etiqueta inexistente"
 
 #: app/controllers/manage/TagsController.php:99
 msgid "Could not approve tag"
-msgstr "Etiqueta não validada"
+msgstr "Não foi possível validar a etiqueta"
 
 #: app/controllers/manage/TagsController.php:107
 msgid "Your tags have been approved"
@@ -940,7 +940,7 @@ msgstr "Não pode editar esta exibição"
 
 #: app/controllers/manage/search_forms/SearchFormEditorController.php:60
 msgid "You cannot edit that form"
-msgstr "Não pode editar esta forma"
+msgstr "Não pode editar este formulário"
 
 #: app/controllers/manage/set_items/SetItemEditorController.php:45
 #: app/controllers/manage/sets/SetEditorController.php:49
@@ -967,28 +967,28 @@ msgstr "Seleção inexistente"
 
 #: app/controllers/manage/sets/SetEditorController.php:149
 msgid "Row_id is invalid"
-msgstr "Row_id é inválido"
+msgstr "Row_id inválido"
 
 #: app/controllers/manage/sets/SetEditorController.php:189
 #: app/controllers/manage/sets/SetEditorController.php:291
 msgid "No set defined"
-msgstr "Sem seleção definido "
+msgstr "Sem seleção definida "
 
 #: app/controllers/manage/sets/SetEditorController.php:270
 msgid "Could not duplicate items in set: %1"
-msgstr ""
+msgstr "Não foi possível duplicar os elementos na seleção %1"
 
 #: app/controllers/manage/sets/SetEditorController.php:275
 msgid "Records have been successfully duplicated and added to set"
-msgstr ""
+msgstr "Registos duplicados com sucesso e adicionados ao set"
 
 #: app/controllers/manage/sets/SetEditorController.php:278
 msgid "Cannot duplicate items"
-msgstr ""
+msgstr "Não é possível duplicar items"
 
 #: app/controllers/manage/sets/SetEditorController.php:298
 msgid "No items are available for export"
-msgstr ""
+msgstr "Não existem items para exportação"
 
 #: app/controllers/manage/sets/SetEditorController.php:319
 #: app/lib/ca/BaseEditorController.php:742
@@ -1030,7 +1030,7 @@ msgstr ""
 
 #: app/controllers/system/PreferencesController.php:127
 msgid "No duplication preferences for %1"
-msgstr ""
+msgstr "Sem preferências de duplicação para %1"
 
 #: app/controllers/system/PreferencesController.php:132
 msgid "Invalid table: %1"
@@ -1058,31 +1058,31 @@ msgstr "não utilize"
 
 #: app/helpers/batchHelpers.php:51
 msgid "add to each"
-msgstr ""
+msgstr "adicionar a cada"
 
 #: app/helpers/batchHelpers.php:52 app/helpers/batchHelpers.php:84
 #: app/helpers/batchHelpers.php:116 app/helpers/batchHelpers.php:148
 msgid "replace value"
-msgstr "substitua valor"
+msgstr "substituir valor"
 
 #: app/helpers/batchHelpers.php:53 app/helpers/batchHelpers.php:85
 #: app/helpers/batchHelpers.php:117 app/helpers/batchHelpers.php:149
 #: app/helpers/batchHelpers.php:209
 msgid "remove all values"
-msgstr "remova todos os valores"
+msgstr "remover todos os valores"
 
 #: app/helpers/batchHelpers.php:83 app/helpers/batchHelpers.php:115
 #: app/helpers/batchHelpers.php:147 app/helpers/batchHelpers.php:207
 msgid "add to each item"
-msgstr "adicione a cada item"
+msgstr "adicionar a cada item"
 
 #: app/helpers/batchHelpers.php:179
 msgid "set for each item"
-msgstr "estabeleça para cada item"
+msgstr "definir para cada item"
 
 #: app/helpers/batchHelpers.php:208
 msgid "replace values"
-msgstr "substitua valores"
+msgstr "substituir valores"
 
 #: app/helpers/batchHelpers.php:253
 msgid ""
@@ -1249,11 +1249,11 @@ msgstr "Tipo utilizado por %1 %2"
 
 #: app/helpers/displayHelpers.php:301
 msgid "Has %1 relationship to %2"
-msgstr "Existe %1 relação com %2"
+msgstr "Tem %1 relação com %2"
 
 #: app/helpers/displayHelpers.php:303
 msgid "Has %1 relationships to %2"
-msgstr "Existem %1 relações com %2"
+msgstr "Tem %1 relações com %2"
 
 #: app/helpers/displayHelpers.php:312
 msgid "Is referenced %1 time"
@@ -1265,7 +1265,7 @@ msgstr "É referenciado %1 vezes"
 
 #: app/helpers/displayHelpers.php:327
 msgid "%1 reference in %2"
-msgstr ""
+msgstr "%1 referência em %2"
 
 #: app/helpers/displayHelpers.php:360
 msgid "This %1 is referenced %2 time"
@@ -1295,23 +1295,23 @@ msgstr "Limpar"
 
 #: app/helpers/displayHelpers.php:403
 msgid "References to this %1"
-msgstr "Referências para %1"
+msgstr "Referências para este %1"
 
 #: app/helpers/displayHelpers.php:409
 msgid "This %1 references %2 other item in metadata"
-msgstr ""
+msgstr "Este %1 referencia %2 outro item nos metadados"
 
 #: app/helpers/displayHelpers.php:411
 msgid "This %1 references %2 other items in metadata"
-msgstr ""
+msgstr "Este %1 referencia outros %2 itens nos metadados"
 
 #: app/helpers/displayHelpers.php:423
 msgid "remove these references"
-msgstr ""
+msgstr "Remover estas referências"
 
 #: app/helpers/displayHelpers.php:424
 msgid "transfer these references and accompanying metadata to"
-msgstr ""
+msgstr "Transferir estas referências e os respetivos metadados"
 
 #: app/helpers/displayHelpers.php:452
 msgid "References by this %1"
@@ -1417,11 +1417,11 @@ msgstr "%1 &gt; Novo %2"
 
 #: app/helpers/displayHelpers.php:948
 msgid "Previous Image"
-msgstr ""
+msgstr "Imagem anterior"
 
 #: app/helpers/displayHelpers.php:949
 msgid "Next Image"
-msgstr ""
+msgstr "Próxima Imagem"
 
 #: app/helpers/displayHelpers.php:994
 msgid "Add/remove item to/from watch list."
@@ -1618,7 +1618,7 @@ msgstr "Tipo de conteúdo"
 
 #: app/helpers/displayHelpers.php:1367
 msgid "Duplicate items in this set and add to"
-msgstr ""
+msgstr "Duplicar item neste conjunto e adicionar a"
 
 #: app/helpers/displayHelpers.php:1369
 msgid "current set"
@@ -1626,7 +1626,7 @@ msgstr ""
 
 #: app/helpers/displayHelpers.php:1370
 msgid "new set"
-msgstr ""
+msgstr "Novo conjunto"
 
 #: app/helpers/displayHelpers.php:1386 app/helpers/displayHelpers.php:1544
 #: app/helpers/displayHelpers.php:1567
@@ -1816,7 +1816,7 @@ msgstr ""
 
 #: app/helpers/displayHelpers.php:3005
 msgid "Sort by %1 %2"
-msgstr ""
+msgstr "Ordenar por %1 %2"
 
 #: app/helpers/displayHelpers.php:3394
 msgid "No media"
@@ -1824,7 +1824,7 @@ msgstr ""
 
 #: app/helpers/displayHelpers.php:3471
 msgid "Add item to %1"
-msgstr ""
+msgstr "Adicionar item a %1"
 
 #: app/helpers/displayHelpers.php:3473
 msgid "Login to add item to %1"
@@ -1832,7 +1832,7 @@ msgstr ""
 
 #: app/helpers/displayHelpers.php:3514
 msgid "Zoom"
-msgstr ""
+msgstr "Ampliação"
 
 #: app/helpers/displayHelpers.php:3523
 #: themes/default/views/administrate/access/user_tools_html.php:39
@@ -1850,7 +1850,7 @@ msgstr "Descarregar"
 #: app/lib/ca/BaseEditorController.php:1804
 #: app/lib/core/Media/MediaViewers/Spin360.php:102
 msgid "Invalid identifier %1"
-msgstr ""
+msgstr "Identificador inválido: %1"
 
 #: app/helpers/displayHelpers.php:3621 app/helpers/displayHelpers.php:3686
 #: app/helpers/displayHelpers.php:3732 app/helpers/displayHelpers.php:3764
@@ -1870,7 +1870,7 @@ msgstr "Assunto inválido"
 #: app/lib/ca/Service/IIIFService.php:126
 #: app/lib/ca/Service/IIIFService.php:144
 msgid "Invalid identifier"
-msgstr ""
+msgstr "Identificador inválido"
 
 #: app/helpers/displayHelpers.php:3798
 msgid "Invalid viewer %1/%2"
@@ -1879,16 +1879,16 @@ msgstr ""
 #: app/helpers/displayHelpers.php:3816 app/lib/ca/BaseEditorController.php:1788
 #: app/lib/core/BaseModel.php:12079
 msgid "Invalid id"
-msgstr ""
+msgstr "id inválido"
 
 #: app/helpers/exportHelpers.php:100 app/helpers/exportHelpers.php:104
 #: app/helpers/exportHelpers.php:172 app/helpers/exportHelpers.php:190
 msgid "Invalid format %1"
-msgstr ""
+msgstr "Formato inválido %1"
 
 #: app/helpers/exportHelpers.php:194
 msgid "Invalid export type"
-msgstr ""
+msgstr "Tipo de exportação inválido"
 
 #: app/helpers/gisHelpers.php:43
 msgid "United States"
@@ -1904,7 +1904,7 @@ msgstr "Afeganistão"
 
 #: app/helpers/gisHelpers.php:46
 msgid "Albania"
-msgstr "Albânia "
+msgstr "Albânia"
 
 #: app/helpers/gisHelpers.php:47
 msgid "Algeria"
@@ -1928,7 +1928,7 @@ msgstr "Anguilla"
 
 #: app/helpers/gisHelpers.php:52
 msgid "Antarctica"
-msgstr "Antárctica "
+msgstr "Antárctica"
 
 #: app/helpers/gisHelpers.php:53
 msgid "Antigua and Barbuda"
@@ -1980,7 +1980,7 @@ msgstr "Barbados"
 
 #: app/helpers/gisHelpers.php:65
 msgid "Belarus"
-msgstr "Belarus"
+msgstr "Bielorrússia"
 
 #: app/helpers/gisHelpers.php:66
 msgid "Belgium"
@@ -2092,7 +2092,7 @@ msgstr "Ilhas Cocos (Keeling)"
 
 #: app/helpers/gisHelpers.php:93
 msgid "Colombia"
-msgstr "Colômbia "
+msgstr "Colômbia"
 
 #: app/helpers/gisHelpers.php:94
 msgid "Comoros"
@@ -2112,7 +2112,7 @@ msgstr "Ilhas Cook"
 
 #: app/helpers/gisHelpers.php:98
 msgid "Corsica"
-msgstr "Córsega "
+msgstr "Córsega"
 
 #: app/helpers/gisHelpers.php:99
 msgid "Costa Rica"
@@ -2132,7 +2132,7 @@ msgstr "Cuba"
 
 #: app/helpers/gisHelpers.php:103
 msgid "Cyprus"
-msgstr "Chipre "
+msgstr "Chipre"
 
 #: app/helpers/gisHelpers.php:104
 msgid "Czech Republic"
@@ -2308,7 +2308,7 @@ msgstr "Hong Kong"
 
 #: app/helpers/gisHelpers.php:147
 msgid "Hungary"
-msgstr "Húngria"
+msgstr "Hungria"
 
 #: app/helpers/gisHelpers.php:148
 msgid "Iceland"
@@ -2316,7 +2316,7 @@ msgstr "Islândia"
 
 #: app/helpers/gisHelpers.php:149
 msgid "India"
-msgstr "Índia "
+msgstr "Índia"
 
 #: app/helpers/gisHelpers.php:150
 msgid "Indonesia"
@@ -2324,7 +2324,7 @@ msgstr "Indonésia "
 
 #: app/helpers/gisHelpers.php:151
 msgid "Iran"
-msgstr "Irão "
+msgstr "Irão"
 
 #: app/helpers/gisHelpers.php:152
 msgid "Iraq"
@@ -2392,7 +2392,7 @@ msgstr "Letónia"
 
 #: app/helpers/gisHelpers.php:168
 msgid "Lebanon"
-msgstr "Libano "
+msgstr "Líbano"
 
 #: app/helpers/gisHelpers.php:169
 msgid "Lesotho"
@@ -2424,7 +2424,7 @@ msgstr "Macau"
 
 #: app/helpers/gisHelpers.php:176
 msgid "Macedonia"
-msgstr "República da Macedônia"
+msgstr "República da Macedónia"
 
 #: app/helpers/gisHelpers.php:177
 msgid "Madagascar"
@@ -2524,7 +2524,7 @@ msgstr "Nepal"
 
 #: app/helpers/gisHelpers.php:201
 msgid "Netherlands"
-msgstr "Países Baixos"
+msgstr "Holanda"
 
 #: app/helpers/gisHelpers.php:202
 msgid "Netherlands Antilles"
@@ -2628,7 +2628,7 @@ msgstr "Reunião"
 
 #: app/helpers/gisHelpers.php:227
 msgid "Romania"
-msgstr "Roménia "
+msgstr "Roménia"
 
 #: app/helpers/gisHelpers.php:228
 msgid "Russian Federation"
@@ -2680,7 +2680,7 @@ msgstr "Eslováquia"
 
 #: app/helpers/gisHelpers.php:240
 msgid "Slovenia"
-msgstr "Eslovênia"
+msgstr "Eslovénia"
 
 #: app/helpers/gisHelpers.php:241
 msgid "Solomon Islands"
@@ -2868,7 +2868,7 @@ msgstr "Ilhas Virgens (Americanas)"
 
 #: app/helpers/gisHelpers.php:287
 msgid "Wallis and Furuna Islands"
-msgstr " Ilhas Wallis e Futuna"
+msgstr "Ilhas Wallis e Futuna"
 
 #: app/helpers/gisHelpers.php:288
 msgid "Western Sahara"
@@ -3334,7 +3334,7 @@ msgstr "Não foi possível enviar email de confirmação de registo para %1: %2"
 
 #: app/helpers/printHelpers.php:508
 msgid "Export as"
-msgstr ""
+msgstr "Exportar como"
 
 #: app/helpers/searchHelpers.php:885
 msgid "%1 to %2"
@@ -3402,7 +3402,7 @@ msgstr "breve descrição"
 
 #: app/helpers/searchHelpers.php:1416
 msgid "display name"
-msgstr ""
+msgstr "Nome de apresentação"
 
 #: app/helpers/searchHelpers.php:1417
 msgid "surname, forename"
@@ -3431,7 +3431,7 @@ msgstr ""
 
 #: app/helpers/searchHelpers.php:1586
 msgid "Relevance"
-msgstr ""
+msgstr "Importância"
 
 #: app/helpers/themeHelpers.php:511
 #: app/widgets/recentTags/recentTagsWidget.php:43 app/conf/navigation.conf:3620
@@ -3448,11 +3448,11 @@ msgstr ""
 
 #: app/helpers/themeHelpers.php:580
 msgid "this %1 contains no items"
-msgstr ""
+msgstr "este %1 não contém itens"
 
 #: app/helpers/themeHelpers.php:590 app/helpers/themeHelpers.php:666
 msgid "Items: %1"
-msgstr ""
+msgstr "Itens: %1"
 
 #: app/helpers/themeHelpers.php:594
 #: app/widgets/recentComments/recentCommentsWidget.php:41
@@ -3462,7 +3462,7 @@ msgstr "Comentários"
 
 #: app/helpers/themeHelpers.php:596 app/helpers/themeHelpers.php:662
 msgid "Edit Name/Description"
-msgstr ""
+msgstr "Editar Nome/Descrição"
 
 #: app/helpers/themeHelpers.php:619 app/helpers/themeHelpers.php:691
 #: themes/default/views/find/Results/ca_collections_results_list_html.php:48
@@ -3483,7 +3483,7 @@ msgstr "Visualização"
 
 #: app/helpers/themeHelpers.php:659
 msgid "Share %1"
-msgstr ""
+msgstr "Partilhar %1"
 
 #: app/helpers/themeHelpers.php:660
 msgid "Manage %1 Access"
@@ -3491,23 +3491,23 @@ msgstr ""
 
 #: app/helpers/themeHelpers.php:666
 msgid "Comments: %1"
-msgstr ""
+msgstr "Comentários: %1"
 
 #: app/helpers/themeHelpers.php:668
 msgid "Responses: %1"
-msgstr ""
+msgstr "Respostas: %1"
 
 #: app/helpers/themeHelpers.php:695
 msgid "Created by:"
-msgstr ""
+msgstr "Criado por"
 
 #: app/helpers/themeHelpers.php:696
 msgid "Items:"
-msgstr ""
+msgstr "Itens:"
 
 #: app/helpers/themeHelpers.php:697
 msgid "Comments:"
-msgstr ""
+msgstr "Comentários:"
 
 #: app/helpers/themeHelpers.php:882
 msgid "lightbox"
@@ -3533,7 +3533,7 @@ msgstr ""
 #: themes/default/views/bundles/ca_objects_history.php:75
 #: themes/default/views/bundles/ca_objects_history.php:275
 msgid "Add to %1"
-msgstr ""
+msgstr "Adicionar a %1"
 
 #: app/helpers/themeHelpers.php:1022 app/plugins/vimeo/views/auth_html.php:44
 #: themes/default/views/system/forgot_password_html.php:65
@@ -3555,11 +3555,11 @@ msgstr ""
 
 #: app/helpers/themeHelpers.php:1045
 msgid "AND"
-msgstr ""
+msgstr "E"
 
 #: app/helpers/themeHelpers.php:1045
 msgid "OR"
-msgstr ""
+msgstr "OU"
 
 #: app/helpers/themeHelpers.php:1075
 #: app/lib/core/Parsers/MediaMetadata/XMPParser.php:148
@@ -3616,7 +3616,7 @@ msgstr "segundos"
 
 #: app/helpers/utilityHelpers.php:2705
 msgid "An error occurred while querying an external webservice"
-msgstr ""
+msgstr "Ocorreu um erro ao contactar um webservice externo"
 
 #: app/helpers/utilityHelpers.php:2849
 msgid "%1 is not a valid unit of length [%2]"
@@ -3650,19 +3650,19 @@ msgstr "Erro de controlador: %1"
 
 #: app/lib/ca/AppNavigation.php:717
 msgid "Disabled"
-msgstr "Desativar"
+msgstr "Desativado"
 
 #: app/lib/ca/AppNavigation.php:725
 msgid "For type <em>%1</em>"
-msgstr "Para tipo <em>%1</em>"
+msgstr "Para o tipo <em>%1</em>"
 
 #: app/lib/ca/AppNavigation.php:725
 msgid "For types <em>%1</em>"
-msgstr "Para tipos <em>%1</em>"
+msgstr "Para os tipos <em>%1</em>"
 
 #: app/lib/ca/Attributes/Values/AuthorityAttributeValue.php:181
 msgid "Value %1 was not set for %2 because it does not refer to an existing %3"
-msgstr ""
+msgstr "O valor %1 não foi definido para %2 uma vez que não se refere a um %3 existente"
 
 #: app/lib/ca/Attributes/Values/AuthorityAttributeValue.php:191
 msgid "%1 id %2 is not valid for element %3"
@@ -3688,11 +3688,11 @@ msgstr "Método %1 não existe para %2 atributos"
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:97
 #: app/lib/ca/Attributes/Values/WeightAttributeValue.php:74
 msgid "Require value"
-msgstr "Requer valor"
+msgstr "Requerer valor"
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:50
 msgid "Check this option if you want to require that a collection be selected."
-msgstr "Marque esta opção se deseja pedir que uma coleção seja selecionada"
+msgstr "Marque esta opção se deseja tornar obrigatória a seleção de uma coleção"
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:57
 #: app/lib/ca/Attributes/Values/EntitiesAttributeValue.php:57
@@ -3734,7 +3734,7 @@ msgstr "Largura de campo na interface do utilizador"
 #: app/lib/ca/Attributes/Values/WeightAttributeValue.php:51
 msgid "Width, in characters, of the field when displayed in a user interface."
 msgstr ""
-"Largura, em caracteres, do campo quando exibido no interface de utilizador."
+"Largura, em caracteres, do campo quando exibido na interface de utilizador."
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:65
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:50
@@ -3783,8 +3783,8 @@ msgid ""
 "Check this option if you don't want your list values to be locale-specific. "
 "(The default is to not be.)"
 msgstr ""
-"Marque esta opção se deseja que a sua lista exija localização específica. (A "
-"predefinição é não exigir.)"
+"Marque esta opção se não deseja que os dados da lista sejam específicos da localização. (A "
+"predefinição é não o serem.)"
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:73
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:96
@@ -3902,7 +3902,7 @@ msgid ""
 "default is to be.)"
 msgstr ""
 "Marque esta opção se este atributo puder ser utilizado formulários de "
-"pesquisas. (A predefinição é ser utilizado.)"
+"pesquisa. (A predefinição é ser utilizado.)"
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:89
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:74
@@ -3934,7 +3934,7 @@ msgstr ""
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:141
 #: app/lib/ca/Attributes/Values/WeightAttributeValue.php:98
 msgid "Can be used in display"
-msgstr "Pode ser utilizado"
+msgstr "Pode ser utilizado numa visualização"
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:90
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:75
@@ -4005,7 +4005,7 @@ msgstr ""
 #: app/models/ca_editor_ui_screens.php:572
 #: app/models/ca_editor_ui_screens.php:1667
 msgid "Display template"
-msgstr "Modelo de visualização"
+msgstr "Apresentar modelo de visualização"
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:99
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:100
@@ -4110,7 +4110,7 @@ msgid ""
 "Check this option if this metadata element can be output as a printable PDF. "
 "(The default is not to be.)"
 msgstr ""
-"Marque esta opção se permitir que este elemento de metadados seja exportado "
+"Marque esta opção para permitir que este elemento de metadados seja exportado "
 "em PDF para impressão. (A predefinição é não permitir.)."
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:114
@@ -4175,7 +4175,7 @@ msgid ""
 "Check this option if individual values for this metadata element can be "
 "output as a printable PDF. (The default is not to be.)"
 msgstr ""
-"Marque esta opção se permitir que valores individuais de metadados sejam "
+"Marque esta opção para permitir que valores individuais deste elemento de metadados sejam "
 "exportados em PDF para impressão. (A predefinição é não permitir.)."
 
 #: app/lib/ca/Attributes/Values/CollectionsAttributeValue.php:122
@@ -4257,23 +4257,26 @@ msgid ""
 "Insert number of metadata elements after which a line break should be "
 "inserted here. (Default is 0 - i.e. no line breaks)"
 msgstr ""
-"Insira o número de metadados após deve ser feita uma quebra de página. (A "
+"Insira o número de metadados após o qual deve ser inserida uma quebra de página. (A "
 "predefinição é 0 - isto é sem quebras de página)"
 
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:109
 msgid "Delimiter to use between multiple values."
-msgstr "Delimitador para utilizar entre valores múltiplos."
+msgstr "Delimitador para utilizar entre múltiplos valores."
 
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:116
 msgid "Display template for read-only mode"
-msgstr ""
+msgstr "Modelo de visualização para o modo de leitura"
 
 #: app/lib/ca/Attributes/Values/ContainerAttributeValue.php:118
 msgid ""
 "Layout used when a container value is in read-only mode. If this template is "
 "set, existing values are always displayed in read-only mode until you click "
 "to edit. This can be used to preserve screen space for large containers."
-msgstr ""
+msgstr "Disposição a usar quando o valor de um contentor estiver em modo de leitura. "
+"Ser este modelo estiver definido, os dados serão apresentados em modo de leitura até "
+"ser selecionada a opção de edição. Para contentores de grandes dimensões, isto pode ser "
+"usado para minimizar o espaço ocupado "
 
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:56
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:66
@@ -4286,8 +4289,7 @@ msgid ""
 "The minimum value allowed. Input less than the required value will be "
 "rejected."
 msgstr ""
-"Valor mínimo permitido. Importações de valores abaixo do requerido serão "
-"rejeitadas."
+"Valor mínimo permitido. Valores abaixo do requerido serão rejeitados."
 
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:64
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:74
@@ -4300,8 +4302,7 @@ msgid ""
 "The maximum value allowed. Input greater than the required value will be "
 "rejected."
 msgstr ""
-"Valor máximo permitido. Importações de valores acima do requerido serão "
-"rejeitadas."
+"Valor máximo permitido. Valores acima do permitido serão rejeitados."
 
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:72
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:58
@@ -4359,8 +4360,8 @@ msgid ""
 "Check this option if you don't want your currency values to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
-"Marque esta opção se não deseja que os valores de moeda sejam de localização "
-"específica. (A predefinição é não serem.)"
+"Marque esta opção se não deseja que os valores de moeda sejam de específicos "
+"à localização. (A predefinição é não o serem.)"
 
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:136
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:108
@@ -4379,7 +4380,7 @@ msgid ""
 "Check this option if this attribute value must be set to some value - it "
 "must not be blank in other words. (The default is not to be.)"
 msgstr ""
-"Marque esta opção se este atributo exigir algum valor em específico - ou "
+"Marque esta opção se este atributo exigir a atribuição de um valor - ou "
 "seja, não pode ficar em branco. (A predefinição é não ficar em branco.)"
 
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:208
@@ -4392,13 +4393,13 @@ msgstr "~%1"
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:223
 #: app/lib/ca/Attributes/Values/TimeCodeAttributeValue.php:198
 msgid "%1 must not be empty"
-msgstr "%1 não pode ficar em branco"
+msgstr "%1 não pode ficar vazio"
 
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:235
 #: app/lib/core/Plugins/CurrencyConversion/EuroBank.php:76
 msgid "%1 is not a valid currency value; be sure to include a currency symbol"
 msgstr ""
-"%1 não é um valor de moeda correta; certifique-se que incluí um símbolo de "
+"%1 não é um valor de moeda válido; certifique-se que inclui um símbolo de "
 "moeda"
 
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:255
@@ -4421,11 +4422,11 @@ msgstr "%1 tem de ser no mínimo %2"
 
 #: app/lib/ca/Attributes/Values/CurrencyAttributeValue.php:294
 msgid "%1 must be less than %2"
-msgstr "%1 tem de ser menos do que %2"
+msgstr "%1 tem de ser menor que %2"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:50
 msgid "Date range boundaries"
-msgstr "Datas extremas"
+msgstr "Valores limite de intervalo de tempo (datas)"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:51
 msgid ""
@@ -4433,15 +4434,15 @@ msgid ""
 "rejected. Leave blank if you do not require restrictions."
 msgstr ""
 "Intervalo de datas aceites. Datas inseridas fora deste intervalo serão "
-"rejeitadas. Deixe em branco se não impôs restrições."
+"rejeitadas. Deixar em branco para não impôr restrições."
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:67
 msgid ""
 "Check this option if you don't want your date ranges to be locale-specific. "
 "(The default is to not be.)"
 msgstr ""
-"Marque esta opção se não quer que o seu intervalo de datas seja de "
-"localização específica. (A predefinição é não ser.)"
+"Selecionar esta opção se não quer que o seu intervalo de datas seja de espeífico à "
+"localização. (A predefinição é não ser.)"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:82
 msgid "Include date picker"
@@ -4452,12 +4453,12 @@ msgid ""
 "Check this option if you want a calendar-based date picker to be available "
 "for date entry. (The default is to not include a picker.)"
 msgstr ""
-"Selecionar esta opção se quiser uma data baseada no calendário para ficar "
-"disponível para entrada de data. (Por defeito não deve dar conflito)."
+"Selecionar esta opção se pretender diponibilizar um selecionador de data baseado no calendário. "
+"(A predefinição é não incluir um selecionador)."
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:90
 msgid "Date picker date format"
-msgstr ""
+msgstr "Formato da data no selecionador de datas"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:92
 msgid "ISO-8601 (ex. 2012-07-03)"
@@ -4473,29 +4474,30 @@ msgstr ""
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:95
 msgid "Month Day, Year (ex. July 3, 2012)"
-msgstr ""
+msgstr "Mês Dia, Ano (ex. Julho 3, 2012)"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:96
 msgid "Month Day Year (ex. July 3 2012)"
-msgstr ""
+msgstr "Mês Dia Ano (ex. Julho 3 2012)"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:97
 msgid "Day Month Year (ex. 3 July 2012)"
-msgstr ""
+msgstr "Dia Mês Ano (ex. 3 Julho 2012)"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:98
 msgid "Short month Day Year (ex. Jul 3 2012)"
-msgstr ""
+msgstr "Abreviatura do Mês Dia Ano (ex. Jul 3 2012)"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:99
 msgid "Day Short month Year (ex. 3 July 2012)"
-msgstr ""
+msgstr "Dia Abreviatura do Mês Ano (ex. 3 Jul 2012)"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:101
 msgid ""
 "Format to use for dates selected from the date picker. (The default is YY-MM-"
 "DD format.)"
-msgstr ""
+msgstr "Formato de data a usar no selecionador de datas. (Prédifinição é o "
+"formato YY-MM-DD"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:116
 msgid "Is a lifespan"
@@ -4507,20 +4509,20 @@ msgid ""
 "Lifespans are displayed in a slightly different format in many languages "
 "than standard dates. (The default is not to be.)"
 msgstr ""
-"Marque esta opção se o valor deste atributo representa a vida útil duma "
-"pessoa. Expectativas de vida  são exibidas num formato ligeiramente "
-"diferente, em muitos idiomas diferentes das datas padrão. (O padrão não é "
-"para se considerar.)"
+"Marque esta opção se o valor deste atributo representa o tempo de vida útil de uma "
+"pessoa. Tempos de vida são exibidos num formato ligeiramente diferente em muitos idiomas "
+"conparativament à representação padrão. (O padrão não é "
+"não ser um tempo de vida.)"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:124
 #: app/models/ca_data_exporter_items.php:240
 #: app/models/ca_data_importer_items.php:360
 msgid "Default value"
-msgstr "Valor predefinido "
+msgstr "Valor por omissão "
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:125
 msgid "Value to pre-populate a newly created attribute with"
-msgstr "Valor de pré-preenchimento de novo atributo com"
+msgstr "Valor de pré-preenchimento de novo atributo"
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:132
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:113
@@ -4533,8 +4535,8 @@ msgid ""
 "Check this option if you want this attribute to suggest previously saved "
 "values as text is entered."
 msgstr ""
-"Marque esta opção se deseja que este atributo sugira previamente valores já "
-"guardados ao se digitar novo texto."
+"Marque esta opção se deseja que este atributo sugira valores previamente "
+"guardados à medida que é inserido texto."
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:140
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:121
@@ -4551,10 +4553,10 @@ msgid ""
 "Choose <i>most recently added </i> to sort with most recently entered values "
 "first."
 msgstr ""
-"Se a sugestão de valores existentes está activada esta opção determina como "
+"Se a sugestão de valores existentes estiver está activada esta opção determina como "
 "os valores devolvidos são ordenados. Escolha <i>value</i> para ordenar "
 "alfabeticamente. Escolha <i> adicionado mais recentemente </i> para ordenar "
-"com os valores mais recentes em primeiro. "
+"pelos valores mais recentes. "
 
 #: app/lib/ca/Attributes/Values/DateRangeAttributeValue.php:143
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:124
@@ -4581,7 +4583,7 @@ msgstr "%1 deve estar dentro de %2"
 
 #: app/lib/ca/Attributes/Values/EntitiesAttributeValue.php:50
 msgid "Check this option if you want to require that an entity be selected."
-msgstr "Marque esta opção se deseja exigir que uma entidade seja selecionada."
+msgstr "Marque esta opção se deseja tornar obrigatória a seleção de uma entidade."
 
 #: app/lib/ca/Attributes/Values/FileAttributeValue.php:55
 #: app/lib/ca/Attributes/Values/GeocodeAttributeValue.php:73
@@ -4590,8 +4592,8 @@ msgid ""
 "Check this option if you don't want your georeferences to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
-"Selecione esta opção se não desejar que as suas georeferências sejam de "
-"localização específica. (A predefinição é não o ser.)"
+"Selecione esta opção se não desejar que as suas georeferências sejam específicas da "
+"localização. (A predefinição é não o serem.)"
 
 #: app/lib/ca/Attributes/Values/FileAttributeValue.php:147
 #: app/lib/ca/Attributes/Values/MediaAttributeValue.php:170
@@ -4618,8 +4620,8 @@ msgid ""
 "Check this option if this attribute value can be used for sorting of search "
 "results. (The default is not to be.)"
 msgstr ""
-"Selecionar esta opção se este valor do atributo for para ser utilizado para "
-"mostrar os resultados de pesquisa. (Não é para ser por defeito)."
+"Selecionar esta opção se o valor do atributo puder ser utilizado para "
+"ordenação dos resultados de pesquisa. (A predefinição é não poder.)"
 
 #: app/lib/ca/Attributes/Values/FloorplanAttributeValue.php:86
 #: app/lib/ca/Attributes/Values/GeoNamesAttributeValue.php:94
@@ -4632,7 +4634,7 @@ msgid ""
 "Check this option if you want to allow empty attribute values. This - of "
 "course - only makes sense if you bundle several elements in a container."
 msgstr ""
-"Selecionar esta opção se quiser permitir a atribuição de valores vazios /"
+"Selecionar esta opção para permitir a atribuição de valores vazios /"
 "zeros. Isto - é claro - só faz sentido se agrupar vários elementos num "
 "assistente."
 
@@ -4667,15 +4669,15 @@ msgstr ""
 
 #: app/lib/ca/Attributes/Values/FloorplanAttributeValue.php:225
 msgid "Edit floor plan"
-msgstr ""
+msgstr "Editar"
 
 #: app/lib/ca/Attributes/Values/GeoNamesAttributeValue.php:71
 msgid ""
 "Check this option if you don't want your GeoNames values to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
-"Selecione esta opção se não desejar que os seus GeoNames sejam de "
-"localização específica. (A predefinição é não o ser.)"
+"Selecione esta opção se não desejar que os seus GeoNames sejam específicos da "
+"localização. (A predefinição é não o serem.)"
 
 #: app/lib/ca/Attributes/Values/GeoNamesAttributeValue.php:86
 msgid "Disable map"
@@ -4683,7 +4685,7 @@ msgstr "Desativar mapa"
 
 #: app/lib/ca/Attributes/Values/GeoNamesAttributeValue.php:87
 msgid "Check this option if you want to disable location map display."
-msgstr "Marque esta opção se deseja desativar a exibição da localização."
+msgstr "Marque esta opção se deseja desativar a exibição do mapa de localização."
 
 #: app/lib/ca/Attributes/Values/GeoNamesAttributeValue.php:152
 msgid "Maximum number of GeoNames results"
@@ -4694,8 +4696,8 @@ msgid ""
 "Determines the maximum number of results returned by GeoNames. Tweak this "
 "number if you want to speed up lookups."
 msgstr ""
-"Determina o número máximo de resultados apresentados pelo GeoNames. Acerte "
-"este número se deseja que as pesquisas sejam mais rápidas."
+"Determina o número máximo de resultados retornados pelo GeoNames. Ajustes "
+"neste parâmetro podem acelerar as pesquisas."
 
 #: app/lib/ca/Attributes/Values/GeoNamesAttributeValue.php:160
 msgid "GeoNames elements"
@@ -4717,7 +4719,7 @@ msgstr "Delimitador de GeoNames"
 #: app/lib/ca/Attributes/Values/GeoNamesAttributeValue.php:169
 msgid "Delimiter to use between multiple values pulled from GeoNames service."
 msgstr ""
-"Delimitador utilizado entre valores múltiplos obtidos através do serviço de "
+"Delimitador utilizado para separar múltiplos valores obtidos através do serviço de "
 "GeoNames."
 
 #: app/lib/ca/Attributes/Values/GeocodeAttributeValue.php:128
@@ -4749,7 +4751,7 @@ msgstr "Mostrar painel de controlo da camada"
 msgid ""
 "Check this option you want to include layer switching controls in the map."
 msgstr ""
-"Assinalar esta opção se deseja que incluir no mapa o painel de controlo da "
+"Marque esta opção se deseja incluir no mapa o painel de controlo da "
 "camada."
 
 #: app/lib/ca/Attributes/Values/GeocodeAttributeValue.php:269
@@ -4781,8 +4783,8 @@ msgid ""
 "Check this option if you don't want your values to be locale-specific. (The "
 "default is to not be.)"
 msgstr ""
-"Marque esta opção se deseja que os seus valores não sejam de localização "
-"específica. (A predefinição é não serem.)"
+"Marque esta opção se deseja que os seus valores não sejam de específicos da localização. "
+"(A predefinição é não serem.)"
 
 #: app/lib/ca/Attributes/Values/InformationServiceAttributeValue.php:264
 msgid ""
@@ -4805,7 +4807,7 @@ msgstr "Menos &rsaquo;"
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:49
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:49
 msgid "Minimum number of characters"
-msgstr "Número mínimo de caracteres"
+msgstr "Número mínimo de carateres"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:51
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:50
@@ -4815,7 +4817,7 @@ msgid ""
 "The minimum number of characters to allow. Input shorter than required will "
 "be rejected."
 msgstr ""
-"Número mínimo de caracteres autorizados. Entradas menores serão rejeitadas."
+"Número mínimo de caracteres autorizado. Valores inferiores a este limite serão rejeitados."
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:58
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:57
@@ -4832,27 +4834,27 @@ msgid ""
 "The maximum number of characters to allow. Input longer than required will "
 "be rejected."
 msgstr ""
-"Número máximo de caracteres autorizados. Entradas superiores serão "
-"rejeitadas."
+"Número máximo de caracteres autorizado. Valores superiores a este limite serão "
+"rejeitados."
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:67
 msgid ""
 "The minimum numeric value to allow. Values smaller than required will be "
 "rejected."
-msgstr "Valor numérico mínimo autorizado. Valores menores serão rejeitados."
+msgstr "Valor numérico mínimo autorizado. Valores inferiores serão rejeitados."
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:75
 msgid ""
 "The maximum numeric value to allow. Values larger than required will be "
 "rejected."
-msgstr "Valor numérico máximo autorizado. Valores maiores serão rejeitados."
+msgstr "Valor numérico máximo autorizado. Valores superiores serão rejeitados."
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:82
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:81
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:65
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:65
 msgid "Regular expression to validate input with"
-msgstr "Expressão regular para validar a entrada com"
+msgstr "Expressão regular para validar a entrada"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:83
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:82
@@ -4864,19 +4866,19 @@ msgid ""
 "trailling delimiter characters (typically \"/\") in your expression. Leave "
 "blank if you don't want to use regular expression-based validation."
 msgstr ""
-"Uma expressão regular Perl-format com a qual se valida a entrada. A Entrada "
-"não corresponde e a expressão será rejeitada. Não inclui os líderes e "
-"carateres trailling delimitadores  (normalmente \"/\") na sua expressão. "
-"Deixe em branco se você não quiser usar validação baseada na expressão "
-"regular."
+"Uma expressão regular (Perl-format) com a qual a entrada é validada. Entradas "
+"que não satisfaçam a expressão serão rejeitadas. Não incluir os carateres "
+"delimitadores na expressão (normalmente \"/\"). "
+"Deixe em branco caso não queira usar validação baseada em expressões "
+"regulares."
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:107
 msgid ""
 "Check this option if you don't want your integer values to be locale-"
 "specific. (The default is to be.)"
 msgstr ""
-"Selecione esta opção se não desejar que os valores inteiros sejam de "
-"localização específica. (A predefinição é não o ser.)"
+"Marque esta opção se não desejar que os valores inteiros sejam específicos da "
+"localização. (A predefinição é não o ser.)"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:130
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:209
@@ -4888,7 +4890,7 @@ msgstr "Tem de ser único"
 msgid ""
 "Check this option to enforce uniqueness across all values for this attribute."
 msgstr ""
-"Marque esta opção para aplicar exclusividade em todos os valores para este "
+"Marque esta opção para aplicar unicidade em todos os valores para este "
 "atributo."
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:212
@@ -4896,39 +4898,39 @@ msgstr ""
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:238
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:235
 msgid "%1 must be at least 1 character long"
-msgstr "%1 deve ter no mínimo um caractere de extensão"
+msgstr "%1 tem de ter no mínimo um carater"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:212
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:203
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:238
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:235
 msgid "%1 must be at least %2 characters long"
-msgstr "%1 deve ter no mínimo %2 caracteres de extensão"
+msgstr "%1 tem de ter no mínimo %2 carateres"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:218
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:209
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:244
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:241
 msgid "%1 must be no more than 1 character long"
-msgstr "%1 deve ter no máximo um caractere de extensão"
+msgstr "%1 tem de ter no máximo 1 carater"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:218
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:209
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:244
 msgid "%1 must be no more than %2 characters long"
-msgstr "%1 deve ter no máximo %2 caracteres de extensão"
+msgstr "%1 tem de ter no máximo %2 carateres"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:225
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:216
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:488
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:289
 msgid "%1 must be a number"
-msgstr "%1 deve ser um número"
+msgstr "%1 tem de ser um número"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:251
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:242
 msgid "%1 must be no more than %2"
-msgstr "%1 não deve ser superior a %2"
+msgstr "%1 não pode ser superior a %2"
 
 #: app/lib/ca/Attributes/Values/IntegerAttributeValue.php:259
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:250
@@ -4944,15 +4946,15 @@ msgstr "%1 não é um valor inteiro"
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:258
 msgid ""
 "%1 must be unique across all values. The value you entered already exists."
-msgstr "%1 deve ser único entre todos os valores. O valor inserido já existe."
+msgstr "%1 tem de ser único. O valor inserido já existe."
 
 #: app/lib/ca/Attributes/Values/LCSHAttributeValue.php:72
 msgid ""
 "Check this option if you don't want your LCSH values to be locale-specific. "
 "(The default is to not be.)"
 msgstr ""
-"Selecione esta opção se deseja que os seus valores LCSH sejam de localização "
-"específica. (A predefinição é não o ser.)"
+"Marque esta opção se deseja que os seus valores LCSH sejam específicos da localização. "
+"(A predefinição é não o ser.)"
 
 #: app/lib/ca/Attributes/Values/LCSHAttributeValue.php:137
 #: app/conf/user_pref_defs.conf:617 app/conf/user_pref_defs.conf:685
@@ -4976,7 +4978,7 @@ msgstr "Cabeçalhos de Assunto LC"
 
 #: app/lib/ca/Attributes/Values/LCSHAttributeValue.php:142
 msgid "LC Name Authority File"
-msgstr "Nome do Ficheiro de Autoridade"
+msgstr "Nome do Ficheiro de Autoridade LC"
 
 #: app/lib/ca/Attributes/Values/LCSHAttributeValue.php:143
 msgid "LC Subject Headings for Children"
@@ -4984,7 +4986,7 @@ msgstr "Cabeçalhos de Assunto LC para crianças"
 
 #: app/lib/ca/Attributes/Values/LCSHAttributeValue.php:144
 msgid "LC Genre/Forms File"
-msgstr "Ficheiro de Género/Forma LC"
+msgstr "Ficheiro de Género/Formulários LC"
 
 #: app/lib/ca/Attributes/Values/LCSHAttributeValue.php:145
 msgid "Thesaurus of Graphic Materials"
@@ -4996,7 +4998,7 @@ msgstr "Eventos de Preservação"
 
 #: app/lib/ca/Attributes/Values/LCSHAttributeValue.php:147
 msgid "Preservation Level Role"
-msgstr "Função do nível de preservação"
+msgstr "Função ao nível da preservação"
 
 #: app/lib/ca/Attributes/Values/LCSHAttributeValue.php:148
 msgid "Cryptographic Hash Functions"
@@ -5045,7 +5047,7 @@ msgid ""
 "Check this option if you don't want your measurements to be locale-specific. "
 "(The default is not to be.)"
 msgstr ""
-"Assinale esta opção se  não quiser que as suas medidas sejam  "
+"Marque esta opção se  não quiser que as suas medidas sejam  "
 "especificamente localizadas. (Não é para ser por defeito.)"
 
 #: app/lib/ca/Attributes/Values/LengthAttributeValue.php:76
@@ -5055,8 +5057,8 @@ msgid ""
 "Check this option if you want an error to be thrown if this measurement is "
 "left blank."
 msgstr ""
-"Marque esta opção se desejar que seja assinalado como erro se esta medida "
-"for deixada em branco."
+"Marque esta opção se desejar que seja apresentado um erro caso esta medida "
+"seja deixada em branco."
 
 #: app/lib/ca/Attributes/Values/LengthAttributeValue.php:223
 #: app/lib/ca/Attributes/Values/WeightAttributeValue.php:212
@@ -5074,13 +5076,13 @@ msgid ""
 "pixels."
 msgstr ""
 "Largura, em caracteres ou pixels, da lista quando exibida na interface de "
-"utilizador. Quando a lista for processada como um navegador de hierarquia a "
-"largura da lista deve estar em pixels."
+"utilizador. Se a lista for renderizada como um navegador de hierarquia a "
+"largura da lista tem de estar em pixels."
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:58
 msgid "Height of list in user interface (hierarchy browser only)"
 msgstr ""
-"Altura de lista na interface de utilizador (navegador de hierarquia apenas)"
+"Altura de lista na interface de utilizador (se navegador de hierarquia)"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:59
 msgid ""
@@ -5092,7 +5094,7 @@ msgstr ""
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:75
 msgid "Check this option if you want to require that a list item be selected."
-msgstr "Marque esta opção se deseja que um elemento da lista seja selecionado."
+msgstr "Marque esta opção se deseja tornar mandatório que uma lista seja selecionada."
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:82
 msgid "No value text"
@@ -5104,11 +5106,11 @@ msgid ""
 "required."
 msgstr ""
 "Texto a ser usado como etiqueta para a opção \"sem valor\" quando um valor "
-"não é necessário."
+"não é obrigatóprio."
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:90
 msgid "Use list default when value is null?"
-msgstr "Usar lista predefinida quando o valor for nulo?"
+msgstr "Usar predefinição da lista quando o valor for nulo?"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:91
 msgid ""
@@ -5116,9 +5118,9 @@ msgid ""
 "value is null. (The default is to disregard the default value and show the "
 "null value.)"
 msgstr ""
-"Marque esta opção se deseja que a lista predefinida de valor seja utilizada "
-"quando o valor do item for nulo. (A predefinição é ignorar a lista "
-"predefinida de valor e mostrar o valor nulo.)"
+"Marque esta opção se deseja que a predefinição da lista seja utilizada "
+"quando o valor do item for nulo. (A predefinição é ignorar a predefinição da lista "
+"e mostrar o valor nulo.)"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:106
 msgid "Render list as"
@@ -5142,7 +5144,7 @@ msgstr "Caixa de seleção Sim/Não"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:111
 msgid "Radio buttons"
-msgstr "Botões de verificação"
+msgstr "Botões de opção"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:112
 msgid "Checklist"
@@ -5154,47 +5156,48 @@ msgstr ""
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:114
 msgid "Horizontal hierarchy browser"
-msgstr "Navegador de hierarquia horizontal"
+msgstr "Navegador horizontal de hierarquia"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:115
 msgid "Horizontal hierarchy browser with search"
-msgstr "Navegador de hierarquia horizontal com pesquisa"
+msgstr "Navegador horizontal de hierarquia com pesquisa"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:116
 msgid "Vertical hierarchy browser (upward)"
-msgstr ""
+msgstr "Navegador vertical de hierarquia (ascendente)"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:117
 msgid "Vertical hierarchy browser (downward)"
-msgstr ""
+msgstr "Navegador vertical de hierarquia (descendente)"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:126
 msgid "Automatically shrink horizontal hierarchy browser"
-msgstr "Recolher automaticamente navegador de hierarquia horizontal"
+msgstr "Diminuir automaticamente navegador horizontal de hierarquia"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:127
 msgid ""
 "Check this option if you want the hierarchy browser to automatically shrink "
 "or expand based on the height of the column with the most data. Only affects "
 "the horizontal browser!"
-msgstr ""
+msgstr "Marque esta opção se pretender que o navegador de hierarquia seja redimensionado "
+"automaticamente tendo em conta a coluna com mais dados. Afeta apenas o navegador horizontal"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:134
 msgid "Number of columns to use for radio button or checklist display"
 msgstr ""
-"Número de colunas para serem usadas pelo botão de rádio ou através de lista "
+"Número de colunas a usar em visualizações com botões de opção ou listas "
 "de visualização"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:135
 msgid ""
 "Maximum number of columns to use when laying out radio buttons or checklist."
 msgstr ""
-"Número máximo de colunas permitido na criação de botões ou listas de "
+"Número máximo de colunas a usar aquando da disposição botões de opção ou listas de "
 "verificação."
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:361
 msgid "Value %1 was not set for %2 because it does not exist in list %3"
-msgstr ""
+msgstr "%2 não foi definido com o valor %1. %1 não existe na lista %3"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:370
 msgid "Value for %1 [%2] cannot be blank"
@@ -5211,16 +5214,16 @@ msgstr "Não configurado"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:577
 msgid "Hide bundles if \"%1\" is selected"
-msgstr ""
+msgstr "Esconder \"bundles\" se \"%1\" for selecionado"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:578
 msgid "Select bundles from the list below"
-msgstr ""
+msgstr "Selecionar \"bundles\" da lista abaixo"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:630
 msgid "The list must have exactly two items to be used as a yes/no checkbox"
 msgstr ""
-"A lista deve ter dois itens para serem utilizados como uma caixa de seleção "
+"A lista tem de ter apenas dois itens que serão utilizados como uma caixa de seleção "
 "sim/não"
 
 #: app/lib/ca/Attributes/Values/ListAttributeValue.php:637
@@ -5235,11 +5238,11 @@ msgstr ""
 
 #: app/lib/ca/Attributes/Values/LoansAttributeValue.php:50
 msgid "Check this option if you want to require that a loan be selected."
-msgstr "Assinale esta opção se deseja que um empréstimos seja selecionado."
+msgstr "Marque esta opção se deseja exigir que um empréstimo seja selecionado."
 
 #: app/lib/ca/Attributes/Values/MediaAttributeValue.php:241
 msgid "Media details"
-msgstr "Detalhes da imagem"
+msgstr "Detalhes do conteúdo multimédia"
 
 #: app/lib/ca/Attributes/Values/MediaAttributeValue.php:318
 msgid "Upload"
@@ -5255,7 +5258,7 @@ msgid ""
 "The minimum numeric value to allow. Values smaller than required will be "
 "rejected. Leave blank to indicate no lower limit."
 msgstr ""
-"Valor numérico mínimo permitido. Valores inferiores ao exigidos serão "
+"Valor numérico mínimo permitido. Valores inferiores ao exigido serão "
 "rejeitados. Deixe em branco para indicar ausência de limite mínimo. "
 
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:74
@@ -5263,7 +5266,7 @@ msgid ""
 "The maximum numeric value to allow. Values larger than required will be "
 "rejected. Leave blank to indicate no upper limit."
 msgstr ""
-"Valor numérico máximo permitido. Valores superiores ao exigidos serão "
+"Valor numérico máximo permitido. Valores superiores ao exigido serão "
 "rejeitados. Deixe em branco para indicar ausência de limite máximo."
 
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:106
@@ -5271,8 +5274,8 @@ msgid ""
 "Check this option if you don't want your numeric values to be locale-"
 "specific. (The default is to be.)"
 msgstr ""
-"Selecione esta opção se não deseja que os seus valores numéricos sejam de "
-"localização específica. (A predefinição é não o ser.)"
+"Marque esta opção se não deseja que os seus valores numéricos sejam formatados em função da "
+"localização. (A predefinição é não o serem.)"
 
 #: app/lib/ca/Attributes/Values/NumericAttributeValue.php:256
 msgid "%1 is not a numeric value"
@@ -5280,41 +5283,40 @@ msgstr "%1 não é um valor numérico"
 
 #: app/lib/ca/Attributes/Values/ObjectLotsAttributeValue.php:50
 msgid "Check this option if you want to require that a lot be selected."
-msgstr "Assinale esta opção se desejar exigir que um lote seja selecionado."
+msgstr "Marque esta opção se desejar tornar mandatória a seleção de um lote."
 
 #: app/lib/ca/Attributes/Values/ObjectRepresentationsAttributeValue.php:50
 msgid ""
 "Check this option if you want to require that an object representation be "
 "selected."
 msgstr ""
-"Assinale esta opção se desejar exigir que a representação de um objeto seja "
-"selecionada."
+"Marque esta opção se desejar tornar mandatória a seleção de uma representação de um objeto seja."
 
 #: app/lib/ca/Attributes/Values/ObjectsAttributeValue.php:50
 msgid "Check this option if you want to require that a object be selected."
-msgstr "Assinale esta opção se desejar exigir que um objeto seja selecionado."
+msgstr "Marque esta opção se desejar tornar mandatória a seleção de um objeto."
 
 #: app/lib/ca/Attributes/Values/OccurrencesAttributeValue.php:50
 msgid "Check this option if you want to require that a occurrence be selected."
 msgstr ""
-"Assinale esta opção se desejar exigir que uma ocorrência seja selecionada."
+"Marque esta opção se desejar tornar mandatória a seleção de uma ocorrência."
 
 #: app/lib/ca/Attributes/Values/PlacesAttributeValue.php:50
 msgid "Check this option if you want to require that a place be selected."
-msgstr "Assinale esta opção se desejar exigir que um local seja selecionado."
+msgstr "Marque esta opção se desejar tornar mandatória a seleção de um local."
 
 #: app/lib/ca/Attributes/Values/StorageLocationsAttributeValue.php:50
 msgid "Check this option if you want to require that a location be selected."
 msgstr ""
-"Assinale esta opção se desejar exigir que uma localização seja selecionada."
+"Marque esta opção se desejar tornar mandatória a seleção de uma localização."
 
 #: app/lib/ca/Attributes/Values/TaxonomyAttributeValue.php:60
 msgid ""
 "Check this option if you don't want your Taxonomy values to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
-"Selecione esta opção se não deseja que os seus valores de Taxonomia sejam de "
-"localização específica. (A predefinição é não o ser.)"
+"Selecione esta opção se não deseja que os seus valores de Taxonomia sejam formatados em função da "
+"localização. (A predefinição é não o serem.)"
 
 #: app/lib/ca/Attributes/Values/TaxonomyAttributeValue.php:214
 #: themes/default/views/bundles/ca_representation_annotations.php:141
@@ -5346,8 +5348,8 @@ msgid ""
 "Check this option if you don't want your text to be locale-specific. (The "
 "default is to be.)"
 msgstr ""
-"Selecione esta opção se não deseja que o seu texto seja de localização "
-"específica. (A predefinição é não o ser.)"
+"Selecione esta opção se não deseja que o seu texto seja formatado em função da "
+"localização. (A predefinição é não o ser.)"
 
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:114
 msgid ""
@@ -5355,9 +5357,9 @@ msgid ""
 "values as text is entered. This option is only effective if the display "
 "height of the text entry is equal to 1."
 msgstr ""
-"Selecione esta opção se quiser este atributo para sugerir salvo "
-"anteriormente valores como texto é inserido. Esta opção só é eficaz se a "
-"altura da  visualização do texto inicial for igual a 1."
+"Selecione esta opção se pretender que este atributo sugira opções previamente guardadas "
+"à medida que é inserido texto. Esta opção só é eficaz se a "
+"altura da visualização do texto for igual a 1."
 
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:133
 msgid "Default text"
@@ -5365,7 +5367,7 @@ msgstr "Texto predefinido"
 
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:134
 msgid "Text to pre-populate a newly created attribute with"
-msgstr "Texto para pré-preencher um atributo recém- criado com"
+msgstr "Texto para pré-preencher um atributo recém-criado"
 
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:191
 msgid "Is dependent value?"
@@ -5387,33 +5389,34 @@ msgid ""
 "Template to be used to format content for dependent values. Template should "
 "reference container values using their bare element code prefixed with a "
 "caret (^). Do not include the table or container codes."
-msgstr ""
+msgstr "Modelo a usar na formatação do conteúdo de valores dependentes. Modelo deverá "
+"referenciar valores pelo seu identificador elementar precedido de (^). Não incluír a tabela ou identificadores de contentor"
 
 #: app/lib/ca/Attributes/Values/TextAttributeValue.php:349
 msgid "This field value already exists!"
-msgstr ""
+msgstr "O valor deste campo já existe!"
 
 #: app/lib/ca/Attributes/Values/TimeCodeAttributeValue.php:66
 msgid ""
 "Check this option if you don't want your time code values to be locale-"
 "specific. (The default is to not be.)"
 msgstr ""
-"Selecione esta opção se não deseja que os seus valores de time code sejam de "
-"localização específica. (A predefinição é não o ser.)"
+"Marque esta opção se não deseja que os seus valores de time code sejam formatados em função da "
+"localização. (A predefinição é não o serem.)"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:90
 msgid ""
 "Check this option if you don't want your urls to be locale-specific. (The "
 "default is to not be.)"
 msgstr ""
-"Marque esta opção se não quer que os seus urls sejam de localização "
-"específica. (A predefinição é não ser.)"
+"Marque esta opção se não quer que os seus urls sejam de específicos da localização. "
+"(A predefinição é não serem.)"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:98
 msgid ""
 "Check this option if you want an error to be thrown if the URL is left blank."
 msgstr ""
-"Selecione esta opção se quiser que seja acionado um erro se o URL for "
+"Marque esta opção se pretender que seja apresentado um erro caso o URL seja "
 "deixado em branco."
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:114
@@ -5422,13 +5425,13 @@ msgid ""
 "values as text is entered. This option is only effective if the display "
 "height of the element is equal to 1."
 msgstr ""
-"Selecione esta opção se quiser que este atributo previamente sugerido seja "
-"salvo com os  valores do texto inserido. Esta opção só é eficaz se a altura "
+"Marque esta opção se pretender que que este atributo sugira valores guardados préviamente "
+" à medida que é inserido texto. Esta opção só é eficaz se a altura "
 "da visualização do elemento for igual a 1."
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:241
 msgid "%1 be no more than %2 characters long"
-msgstr "%1 não deve ter mais de %2 caracteres de extensão"
+msgstr "%1 não deve ter tamanho superior a %2 caracteres"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:255
 msgid "%1 is not a valid url"
@@ -5440,31 +5443,31 @@ msgstr "Abrir &rsaquo;"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:369
 msgid "Could not open remote URL [%1]"
-msgstr ""
+msgstr "Não foi possível abri o URL remoto [%1]"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:373
 msgid "Could not read data from remote URL [%1]"
-msgstr ""
+msgstr "Não foi possível ler dados do URL remoto [%1]"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:402
 msgid "Checking values for element code [%1]"
-msgstr ""
+msgstr "A verificar valores para o código do elemento [%1]"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:407
 msgid "Processing element [%1]"
-msgstr ""
+msgstr "A processar o elemento [%1]"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:420
 msgid "There was an error while veryfing URL for %1 with ID %2: %3"
-msgstr ""
+msgstr "Ocorreu um erro ao verificar o URL para %1 com ID %2: %3"
 
 #: app/lib/ca/Attributes/Values/UrlAttributeValue.php:426
 msgid "Open record"
-msgstr ""
+msgstr "Abrir registo"
 
 #: app/lib/ca/Attributes/Values/WeightAttributeValue.php:219
 msgid "%1 must not be less than zero"
-msgstr "%1 não pode ser menos de zero"
+msgstr "%1 não pode ser menor que zero"
 
 #: app/lib/ca/BaseAdvancedSearchController.php:79
 msgid "%1 advanced search"
@@ -5520,11 +5523,11 @@ msgstr "Duplicado %1 \"%2\" (%3)"
 
 #: app/lib/ca/BaseEditorController.php:120
 msgid "Could not duplicate %1: %2"
-msgstr "Não é possível duplicar %1: %2"
+msgstr "Não foi possível duplicar %1: %2"
 
 #: app/lib/ca/BaseEditorController.php:246
 msgid "Added relationship"
-msgstr ""
+msgstr "Relação adicionada"
 
 #: app/lib/ca/BaseEditorController.php:281
 #: app/lib/ca/BaseEditorController.php:474 app/lib/core/BaseModel.php:5950
@@ -5537,8 +5540,8 @@ msgid ""
 "saved. Correct the problems and click \"save\" again.\n"
 "<ul>"
 msgstr ""
-"Existem erros a impedir que <strong>TODA</strong> a informação seja "
-"guardada. Corrija os problema e clique em \"gravar\" novamente.\n"
+"Ocorreram erros que impedem que <strong>TODA</strong> a informação seja "
+"guardada. Corrija os problema e clique novamente em \"gravar\".\n"
 "<ul>"
 
 #: app/lib/ca/BaseEditorController.php:375
@@ -5547,33 +5550,33 @@ msgid ""
 "as noted below.\n"
 "<ul>"
 msgstr ""
-"Há erros a impedir que a informação em determinados campos seja guardada "
+"Ocorreram erros que impedem que a informação em determinados campos seja guardada "
 "como indicado abaixo.\n"
 "<ul>"
 
 #: app/lib/ca/BaseEditorController.php:480
 msgid "Cannot delete root of hierarchy"
-msgstr "Não pode apagar raiz da hierarquia"
+msgstr "Não é possível apagar a raiz da hierarquia"
 
 #: app/lib/ca/BaseEditorController.php:497
 msgid "Transferred %1 relationship to type <em>%2</em>"
-msgstr "Transferido %1 da relação para o tipo  <em>%2</em>"
+msgstr "Transferida %1 relação para o tipo <em>%2</em>"
 
 #: app/lib/ca/BaseEditorController.php:497
 msgid "Transferred %1 relationships to type <em>%2</em>"
-msgstr "Transferido %1 das relações para o tipo  <em>%2</em>"
+msgstr "Transferidas %1 relações para o tipo <em>%2</em>"
 
 #: app/lib/ca/BaseEditorController.php:517
 msgid "Transferred %1 relationship to <em>%2</em> (%3)"
-msgstr "Transferido %1 da relação para o tipo <em>%2</em> (%3)"
+msgstr "Transferida%1 relação para o tipo <em>%2</em> (%3)"
 
 #: app/lib/ca/BaseEditorController.php:517
 msgid "Transferred %1 relationships to <em>%2</em> (%3)"
-msgstr "Transferido %1 das relações para o tipo <em>%2</em> (%3)"
+msgstr "Transferidas %1 relações para o tipo <em>%2</em> (%3)"
 
 #: app/lib/ca/BaseEditorController.php:530
 msgid "Could not move references to other items in metadata before delete: %1"
-msgstr ""
+msgstr "Não foi possível mover referências a outros elementos nos metadados antes da remoção: %1"
 
 #: app/lib/ca/BaseEditorController.php:558
 msgid "%1 was deleted"
@@ -5581,11 +5584,11 @@ msgstr "%1 foi apagado"
 
 #: app/lib/ca/BaseEditorController.php:813
 msgid "No access to element"
-msgstr "Sem acesso a elemento"
+msgstr "Sem acesso ao elemento"
 
 #: app/lib/ca/BaseEditorController.php:821
 msgid "Element is not part of current item"
-msgstr "Elemento não é parte do item corrente"
+msgstr "Elemento não é parte do item atual"
 
 #: app/lib/ca/BaseEditorController.php:995
 msgid "Could not set ACL inheritance settings: %1"
@@ -5609,25 +5612,25 @@ msgstr "novo %1"
 
 #: app/lib/ca/BaseEditorController.php:1100
 msgid "Editing %1 : %2"
-msgstr "Em edição %1 : %2"
+msgstr "A editar %1 : %2"
 
 #: app/lib/ca/BaseEditorController.php:1729
 #: app/lib/ca/BaseEditorController.php:1743
 #: app/lib/ca/BaseEditorController.php:1799
 msgid "Cannot view media"
-msgstr ""
+msgstr "Não é possível visualizar elemento multimédia"
 
 #: app/lib/ca/BaseEditorController.php:1856
 msgid "Invalid type"
-msgstr ""
+msgstr "Tipo inválido"
 
 #: app/lib/ca/BaseEditorController.php:1985
 msgid "Invalid representation_id"
-msgstr "Representação_id inválida"
+msgstr "Identificador de representação (representation_id) inválido"
 
 #: app/lib/ca/BaseEditorController.php:1994
 msgid "Transformation failed"
-msgstr "Transformação falhou"
+msgstr "Não foi possível efetuar a transformação"
 
 #: app/lib/ca/BaseEditorController.php:2278
 msgid "downloaded_file"
@@ -5639,13 +5642,13 @@ msgstr "downloaded_file.%1"
 
 #: app/lib/ca/BaseEditorController.php:2296
 msgid "Invalid file"
-msgstr ""
+msgstr "Ficheiro inválido"
 
 #: app/lib/ca/BaseFindController.php:144 app/models/ca_bundle_displays.php:850
 #: app/models/ca_search_forms.php:686
 #: themes/default/views/administrate/access/role_edit_html.php:197
 msgid "Default"
-msgstr "Predefinição "
+msgstr "Predefinição"
 
 #: app/lib/ca/BaseFindController.php:215
 #: app/lib/ca/Import/DataReaders/TabDelimitedDataReader.php:55
@@ -5668,31 +5671,31 @@ msgstr "Processador de texto (DOCX)"
 
 #: app/lib/ca/BaseFindController.php:550
 msgid "Nothing was selected"
-msgstr "Nada foi selecionado"
+msgstr "Não foi selecionado qualquer valor"
 
 #: app/lib/ca/BaseFindController.php:579
 msgid "Invalid set"
-msgstr "Seleção inválida"
+msgstr "Seleção (set) inválida"
 
 #: app/lib/ca/BaseFindController.php:583
 msgid "You cannot edit sets"
-msgstr ""
+msgstr "Não tem permissões para editar seleções (sets)"
 
 #: app/lib/ca/BaseFindController.php:642
 msgid "You cannot create sets"
-msgstr ""
+msgstr "Não tem permissões para criar seleções (sets)"
 
 #: app/lib/ca/BaseFindController.php:673
 msgid "Search could not be saved"
-msgstr "Não foi possível salvar a pesquisa"
+msgstr "Não foi possível guardar a pesquisa"
 
 #: app/lib/ca/BaseFindController.php:829
 msgid "Could not generate ZIP file for download"
-msgstr "Não foi possível criar ficheiro ZIP para descarregar"
+msgstr "Não foi possível criar ficheiro ZIP para descarrega"
 
 #: app/lib/ca/BaseFindController.php:1007
 msgid "Cannot edit %1"
-msgstr ""
+msgstr "Não é possível editar %1"
 
 #: app/lib/ca/BaseInterstitialController.php:74
 #: app/lib/ca/BaseInterstitialController.php:145
@@ -5705,15 +5708,15 @@ msgid ""
 "<em>%1</em> doesn't exist with this filter but %2 record(s) match overall. "
 "Create <em>%1</em>?"
 msgstr ""
-"<em>%1</em> não existe com este filtro mas %2 registo(s) correspondem no "
-"geral. Criar <em>%1</em>?"
+"<em>%1</em> não existe com este filtro mas tem correspondência com outros %2 registo(s). "
+"Criar <em>%1</em>?"
 
 #: app/lib/ca/BaseLookupController.php:188
 msgid ""
 "<em>%1</em> matches %2 more record(s) without the current filter. Create <em>"
 "%1</em>?"
 msgstr ""
-"<em>%1</em> correspondem %2 mais registo(s) sem o filtro atual. Criar <em>"
+"<em>%1</em> tem correspondência com outros %2 registo(s) sem o filtro atual. Criar <em>"
 "%1</em>?"
 
 #: app/lib/ca/BaseLookupController.php:191
@@ -5726,36 +5729,36 @@ msgstr "Criar <em>%1</em>?"
 
 #: app/lib/ca/BaseLookupController.php:196
 msgid "No matches found for \"%1\""
-msgstr ""
+msgstr "Não foram encontrados resultados para \"%1\""
 
 #: app/lib/ca/BaseLookupController.php:537
 #: app/lib/ca/BaseLookupController.php:565
 msgid "Could not load %1"
-msgstr ""
+msgstr "Não foi possível carregar %1"
 
 #: app/lib/ca/BaseLookupController.php:571
 msgid "Invalid hierarchy type"
-msgstr ""
+msgstr "Tipo de hierarquia inválido"
 
 #: app/lib/ca/BaseLookupController.php:575
 msgid "Sorting is not supported for %1"
-msgstr ""
+msgstr "%1 não suporta ordenação"
 
 #: app/lib/ca/BaseLookupController.php:584
 msgid "%1 must have default sort set to rank"
-msgstr ""
+msgstr "%1 tem de ter ordenação por omissão definida como rank"
 
 #: app/lib/ca/BaseLookupController.php:592
 msgid "%1 must have sort configured to use rank"
-msgstr ""
+msgstr "%1 tem de estar configurado para usar rank na ordenação"
 
 #: app/lib/ca/BaseLookupController.php:598
 msgid "Could not update rank: %1"
-msgstr ""
+msgstr "Não foi possível atualizar rank: %1"
 
 #: app/lib/ca/BaseQuickAddController.php:156
 msgid "No interface defined for %1"
-msgstr "Não existe interface definido para %1"
+msgstr "Não existe interface definidaq para %1"
 
 #: app/lib/ca/BaseQuickAddController.php:240
 msgid "You are not allowed to quickadd %1"
@@ -5765,16 +5768,16 @@ msgstr "Não está autorizado a utilizar a adição rápida para %1"
 #: app/lib/ca/BaseRepresentationRelationship.php:131
 #: app/lib/ca/BaseRepresentationRelationship.php:206
 msgid "Related %1 does not exist"
-msgstr "Relacionado %1 não existe"
+msgstr "Elemento relacionado %1 não existe"
 
 #: app/lib/ca/BaseRepresentationRelationship.php:244
 #: app/models/ca_object_representations.php:497
 msgid "Could not update primary flag for representation: %1"
-msgstr "Não foi possível atualizar o marcador para representação: %1"
+msgstr "Não foi possível atualizar o marcador primário para representação: %1"
 
 #: app/lib/ca/BaseRepresentationRelationship.php:249
 msgid "Could not load %1-representation link"
-msgstr "Não foi possível carregar %1-link de representação"
+msgstr "Não foi possível carregar link de %1-representação"
 
 #: app/lib/ca/BaseSearchController.php:134
 msgid "%1 search"
@@ -5782,7 +5785,7 @@ msgstr "%1 pesquisa"
 
 #: app/lib/ca/BaseSearchController.php:155
 msgid "Set order: %1"
-msgstr ""
+msgstr "Definir ordem: %1"
 
 #: app/lib/ca/BaseSearchController.php:478 app/lib/ca/Search/QuickSearch.php:52
 #: app/models/ca_set_items.php:67 app/models/ca_sets.php:92
@@ -5842,12 +5845,12 @@ msgstr "Coleções"
 msgid ""
 "Error applying database migration %1: %2; error was at query %3; query was %4"
 msgstr ""
-"Erro ao aplicar a migração de %1: %2; erro na consulta %3; a consulta foi %4"
+"Erro ao aplicar a migração de base de dados %1: %2; erro na consulta %3; a consulta foi %4"
 
 #: app/lib/ca/BatchProcessor.php:150 app/lib/ca/BatchProcessor.php:290
 #: app/lib/ca/BatchProcessor.php:419 app/models/ca_data_importers.php:1802
 msgid "[%3/%4] Processing %1 (%2)"
-msgstr "[%3/%4] Processando %1 (%2)"
+msgstr "[%3/%4] A processar %1 (%2)"
 
 #: app/lib/ca/BatchProcessor.php:157 app/lib/ca/BatchProcessor.php:298
 #: app/lib/ca/BatchProcessor.php:427 app/lib/ca/BatchProcessor.php:1105
@@ -5871,7 +5874,7 @@ msgstr "type_id inválido"
 #: app/lib/ca/BatchProcessor.php:534 app/lib/ca/BatchProcessor.php:545
 #: app/lib/ca/BatchProcessor.php:555
 msgid "Specified import directory '%1' is invalid"
-msgstr "A diretoria de importação '%1' é inválida"
+msgstr "A diretoria de importação especificada '%1' é inválida"
 
 #: app/lib/ca/BatchProcessor.php:607
 msgid "Found %1 files in directory '%2'"
@@ -5879,27 +5882,27 @@ msgstr "Encontrados %1 ficheiros na diretoria '%2'"
 
 #: app/lib/ca/BatchProcessor.php:638
 msgid "Create set %1"
-msgstr "Criar seleção %1"
+msgstr "Criar conjunto (set) %1"
 
 #: app/lib/ca/BatchProcessor.php:639
 msgid "Failed to create set %1: %2"
-msgstr "Não foi possível criar seleção %1: %2"
+msgstr "Não foi possível criar conjunto (set) %1: %2"
 
 #: app/lib/ca/BatchProcessor.php:648
 msgid "Add label to set %1"
-msgstr "Adicionar etiqueta a conjunto %1"
+msgstr "Adicionar etiqueta ao conjunto (set) %1"
 
 #: app/lib/ca/BatchProcessor.php:649
 msgid "Failed to add label to set: %1"
-msgstr "Não foi possível adicional etiqueta ao conjunto: %1"
+msgstr "Não foi possível adicional etiqueta ao conjunto (set): %1"
 
 #: app/lib/ca/BatchProcessor.php:665
 msgid "You do not have access to set %1"
-msgstr "Não tem acesso a esta seleção %1"
+msgstr "Não tem acesso a este conjunto (set) %1"
 
 #: app/lib/ca/BatchProcessor.php:666
 msgid "Cannot add to set %1 because you do not have edit access"
-msgstr "Não é possível adicionar à seleção %1 porque não permissão para editar"
+msgstr "Não é possível adicionar ao conjunto (set) %1 porque não permissões de edição"
 
 #: app/lib/ca/BatchProcessor.php:703
 msgid "Skipped file %1 because it was on the skipped files list"
@@ -5915,32 +5918,32 @@ msgstr "Ignorado %1 de %2 porque já existe %3"
 
 #: app/lib/ca/BatchProcessor.php:729
 msgid "Processing mediaFilenameToObjectIdnoRegexes entry %1"
-msgstr "Processando mediaFilenameToObjectIdnoRegexes entrada %1"
+msgstr "A processar entrada mediaFilenameToObjectIdnoRegexes %1"
 
 #: app/lib/ca/BatchProcessor.php:735
 msgid "Trying to match on directory '%1'"
-msgstr "Procurando correspondências na diretoria '%1'"
+msgstr "A procurar correspondências na diretoria '%1'"
 
 #: app/lib/ca/BatchProcessor.php:739
 msgid "Trying to match on directory '%1' and file name '%2'"
 msgstr ""
-"Procurando correspondência na diretoria '%1' e com o nome do ficheiro %2'"
+"A procurar correspondências na diretoria '%1' e com o nome de ficheiro %2'"
 
 #: app/lib/ca/BatchProcessor.php:744
 msgid "Trying to match on file name '%1'"
-msgstr "Procurando correspondência para o ficheiro com o nome '%1'"
+msgstr "A procurar correspondências para ficheiros com o nome '%1'"
 
 #: app/lib/ca/BatchProcessor.php:764
 msgid "There was an error in preg_replace while processing replacement %1."
-msgstr "Houve um erro na preg_replace enquanto processavam a substituição %1."
+msgstr "Houve um erro na preg_replace na substituição %1."
 
 #: app/lib/ca/BatchProcessor.php:768
 msgid ""
 "The result for replacement with code %1 applied to value '%2' is '%3' and "
 "was added to the list of file names used for matching."
 msgstr ""
-"O resultado para o código de substituição %1 aplicado ao valor '%2' é '%3' "
-"foi também adicionado à lista de nomes utilizados nas correspondências."
+"O resultado da substituição com o código %1 aplicado ao valor '%2' é '%3' "
+"foi adicionado à lista de nomes utilizados nas correspondências."
 
 #: app/lib/ca/BatchProcessor.php:772
 msgid "Skipped replacement %1 because no search expression was defined."
@@ -5950,21 +5953,21 @@ msgstr ""
 
 #: app/lib/ca/BatchProcessor.php:784
 msgid "Matched name %1 on regex %2"
-msgstr ""
+msgstr "Encontrada correspondência do nome %1 na expressão regular %2"
 
 #: app/lib/ca/BatchProcessor.php:831
 msgid "Matched media %1 from %2 to %3 using expression \"%4\""
 msgstr ""
-"Correspondência de imagens %1 de %2 para %3 utilizando a expressão \"%4\""
+"Estabelecida correspondência de conteúdo multimédia %1 de %2 para %3 utilizando a expressão \"%4\""
 
 #: app/lib/ca/BatchProcessor.php:840
 msgid "Couldn't match name %1 on regex %2"
-msgstr ""
+msgstr "Não foi encontrada correspondência do nome %1 na expressão regular %2"
 
 #: app/lib/ca/BatchProcessor.php:853
 msgid "Matched media %1 from %2 to %3 using filename"
 msgstr ""
-"Correspondência de imagens %1 de %2 para %3 utilizando o nome do ficheiro"
+"Estabelecida correspondência de conteúdo multimédia %1 de %2 para %3 utilizando o nome do ficheiro"
 
 #: app/lib/ca/BatchProcessor.php:903 app/lib/ca/BatchProcessor.php:1021
 msgid "Error importing %1 from %2: %3"
@@ -5972,11 +5975,11 @@ msgstr "Erro ao importar %1 de %2: %3"
 
 #: app/lib/ca/BatchProcessor.php:960 app/lib/ca/BatchProcessor.php:966
 msgid "Error creating new record while importing %1 from %2: %3"
-msgstr "Erro ao criar novo registo enquanto importava %1 de %2: %3"
+msgstr "Erro na criação de novo registo ao importar %1 de %2: %3"
 
 #: app/lib/ca/BatchProcessor.php:988 app/lib/ca/BatchProcessor.php:995
 msgid "Error creating record label while importing %1 from %2: %3"
-msgstr "Erro ao criar etiqueta de registo enquanto importava %1 de %2: %3"
+msgstr "Erro na criação de etiqueta de registo ao importar %1 de %2: %3"
 
 #: app/lib/ca/BatchProcessor.php:1014
 msgid "Error importing %1 from %2: "
@@ -6005,11 +6008,11 @@ msgstr "Ignorados %1 de %2"
 
 #: app/lib/ca/BatchProcessor.php:1098
 msgid "[%3/%4] Processing %1 (%3)"
-msgstr "[%3/%4] Processando %1 (%3)"
+msgstr "[%3/%4] A processar %1 (%3)"
 
 #: app/lib/ca/BatchProcessor.php:1136
 msgid "[%1] Batch media import completed"
-msgstr "[%1] Importação de imagens em série completa"
+msgstr "[%1] Importação em série de conteúdo multimédia completa"
 
 #: app/lib/ca/BatchProcessor.php:1140 app/lib/ca/BatchProcessor.php:1152
 #: app/lib/ca/BatchProcessor.php:1154
@@ -6026,14 +6029,14 @@ msgid ""
 "[%1] Media import processing for directory %2 with %3 %4 begun at %5 is "
 "complete"
 msgstr ""
-"[%1] Processamento de importação de imagens para a directoria  %2 com %3 %4 "
+"[%1] Processamento de importação de conteúdo multimédia para a directoria %2 com %3 %4 "
 "iniciado a %5 está completo"
 
 #: app/lib/ca/BatchProcessor.php:1154
 msgid ""
 "Media import processing for directory %1 with %2 %3 begun at %4 is complete"
 msgstr ""
-"Processamento de importação de imagens para a directoria  %1 com %2 %3 "
+"Processamento de importação de conteúdo multimédia para a directoria %1 com %2 %3 "
 "iniciado a %4 está completo"
 
 #: app/lib/ca/BatchProcessor.php:1193
@@ -6042,7 +6045,7 @@ msgstr "Importador %1 não existe"
 
 #: app/lib/ca/BatchProcessor.php:1220
 msgid "Could not import source %1"
-msgstr "Não foi possível importar fonte %1"
+msgstr "Não foi possível importar a fonte %1"
 
 #: app/lib/ca/BatchProcessor.php:1228 app/lib/ca/Utils/CLIUtils.php:1240
 msgid "Imported data from source %1"
@@ -6062,7 +6065,7 @@ msgstr "filas"
 
 #: app/lib/ca/BatchProcessor.php:1255
 msgid "[%1] Metadata import processing for begun at %2 is complete"
-msgstr "[%1] A importação de metadados iniciada aos %2 está completa"
+msgstr "[%1] A importação de metadados iniciada a %2 está completa"
 
 #: app/lib/ca/Browse/BrowseEngine.php:162
 msgid "Searches"
@@ -6210,7 +6213,7 @@ msgstr "Tipo"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:170
 msgid "Type must be specified"
-msgstr "Deve selecionar tipo"
+msgstr "Tipo tem de ser especificado"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:173
 msgid "<em>%1</em> is invalid"
@@ -6228,7 +6231,7 @@ msgstr ""
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:199
 msgid "No parent was found when verifying type of new child"
-msgstr "Não foi encontrado nenhuma relação hierárquica"
+msgstr "Não foi encontrado nenhuma relação hierárquica ao verificar tipo do novo registo"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:208
 msgid "<em>%1</em> is not a valid type for a top-level record"
@@ -6236,11 +6239,11 @@ msgstr "<em>%1</em> não é um tipo válido para um registo de alto nível"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:290
 msgid "You do not have edit access for this item: %1/%2"
-msgstr "Não tem autorização para editar este item: %1/%2"
+msgstr "Não tem permissões para editar este item: %1/%2"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:356
 msgid "You do not have delete access for this item"
-msgstr "Não tem autorização para apagar este item"
+msgstr "Não tem permissões para apagar este item"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:424
 msgid "Cannot duplicate root of hierarchy"
@@ -6257,11 +6260,11 @@ msgstr "Duplicado"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:599
 msgid "Type id cannot be set after insert"
-msgstr "O tipo de id não pode ser definido após inserção "
+msgstr "O identificador de tipo não pode ser definido após inserção "
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:886
 msgid "Preferred labels"
-msgstr "Título"
+msgstr "Título preferido"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:887
 #: app/refineries/collectionSplitter/collectionSplitterRefinery.php:191
@@ -6297,7 +6300,7 @@ msgstr "Desconhecido"
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:1231
 #: themes/default/views/bundles/ca_object_representations_media_display.php:33
 msgid "+ 1 additional preview"
-msgstr "+1 pré visualização adicional"
+msgstr "+ 1 pré visualização adicional"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:1231
 #: themes/default/views/bundles/ca_object_representations_media_display.php:33
@@ -6306,7 +6309,7 @@ msgstr "+ %1 pré-visualizações adicionais"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:1237
 msgid "<h3>Fetched from:</h3> URL %1 on %2"
-msgstr "<h3>Recolhido de:</h3> URL %1 em %2"
+msgstr "<h3>Obtido de:</h3> URL %1 em %2"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:1366
 msgid "REQUIRED"
@@ -6322,7 +6325,7 @@ msgstr "Ainda não foi emitido"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:1541
 msgid "Restricted to types"
-msgstr "Reservado aos tipos"
+msgstr "Reservado a tipos"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:1969
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2064
@@ -6331,19 +6334,19 @@ msgstr "a partir relacionado %1"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:1997
 msgid "alternates from related %1"
-msgstr "relacionados suplentes %1"
+msgstr "alternativos dos relacionados %1"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:1999
 msgid "alternates"
-msgstr "suplentes"
+msgstr "alternativos"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2012
 msgid "Object media representation (%1)"
-msgstr "Representação de imagem (%1)"
+msgstr "Representação multimédia do Objeto (%1)"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2014
 msgid "Object media representation (default)"
-msgstr "Representação de imagem (predefinição) "
+msgstr "Representação multimédia do Objeto (predefinição) "
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2054
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2070
@@ -6363,27 +6366,27 @@ msgstr "Uma lista de alternativas %1 %2"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2096
 msgid "A list of related media representations using version \"%1\""
-msgstr "Lista de representações de imagens relacionados usando a versão \"%1\""
+msgstr "Lista de representações multimédia de relacionados usando a versão \"%1\""
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2098
 msgid "A list of related media representations using the default version"
 msgstr ""
-"Lista de representações de imagens relacionadas usando a versão predefinida"
+"Lista de representações multimédia de relacionados usando a versão predefinida"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2240
 #: app/lib/core/BaseModelWithAttributes.php:1329
 #: app/lib/core/Plugins/SearchEngine/SqlSearch.php:924
 #: app/lib/core/Search/SearchEngine.php:146
 msgid "SET"
-msgstr ""
+msgstr "SET"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2424
 msgid "Access denied to UI %1"
-msgstr ""
+msgstr "Acesso negado à UI %1"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2436
 msgid "Access denied to screen %1"
-msgstr ""
+msgstr "Acesso negado ao monitor %1"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:2696
 #: themes/default/views/bundles/hierarchy_location.php:203
@@ -6412,11 +6415,12 @@ msgstr "Valor <em>%1</em> já em utilização e duplicados não são permitidos"
 msgid ""
 "A preferred label for this locale already exists. Only one preferred label "
 "per locale is allowed."
-msgstr ""
+msgstr "Já existe uma etiqueta preferida para esta localização. Apenas pode ser "
+"definda uma etiqueta preferida por localização"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:4475
 msgid "No relationship type configured"
-msgstr ""
+msgstr "Nenhum tipo de relação configurado"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:4775
 msgid "There must be at least %1 relationship for %2"
@@ -6424,7 +6428,7 @@ msgstr "Deve existir pelo menos %1 relação para %2"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:4775
 msgid "There must be at least %1 relationships for %2"
-msgstr "Deve existir pelo menos %1 relações para %2"
+msgstr "Devem existir pelo menos %1 relações para %2"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:4779
 msgid "There must be no more than %1 relationship for %2"
@@ -6432,11 +6436,11 @@ msgstr "Não deve existir mais do que %1 relação para %2"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:4779
 msgid "There must be no more than %1 relationships for %2"
-msgstr "Não deve existir mais do que %1 relações para %2"
+msgstr "Não devem existir mais do que %1 relações para %2"
 
 #: app/lib/ca/BundlableLabelableBaseModelWithAttributes.php:6031
 msgid "Identifier %1 already exists and duplicates are not permitted"
-msgstr "Identificador %1 já existe e duplicados não são permitidos"
+msgstr "Identificador %1 já existe e não são permitidos duplicados"
 
 #: app/lib/ca/ConfigurationCheck.php:146
 msgid ""
@@ -6446,11 +6450,11 @@ msgid ""
 "prior to installation. You can reload the installer to verify that the "
 "changed permissions are correct."
 msgstr ""
-"O CollectiveAccess <i>app/tmp</i> o diretório não pode ser gravado pelo "
-"instalador. Isto pode resultar em erros de instalação. É recomendável que "
-"altere as permissões neste diretório (<i>%1</i>) para permitir o acesso de "
-"gravação antes da instalação. Pode recarregar o instalador para verificar se "
-"as permissões alteradas estão corretas."
+"O processo de instalação NÃO TEM permissões de escrita no diretório "
+"<i>app/tmp</i> do CollectiveAccess. Isto pode resultar em erros na instalação. "
+"É recomendável que altere as permissões neste diretório (<i>%1</i>) para permitir acesso de "
+"escrita antes da instalação. Pode recarregar o instalador para verificar se "
+"as novas permissões estão corretas."
 
 #: app/lib/ca/ConfigurationCheck.php:153
 msgid ""
@@ -6460,6 +6464,11 @@ msgid ""
 "prior to installation. You can reload the installer to verify that the "
 "changed permissions are correct."
 msgstr ""
+"O processo de instalação NÃO TEM permissões de escrita no diretório "
+"<i>app/log</i> do CollectiveAccess. Isto pode resultar em erros na instalação. "
+"É recomendável que altere as permissões neste diretório (<i>%1</i>) para permitir acesso de "
+"escrita antes da instalação. Pode recarregar o instalador para verificar se "
+"as novas permissões estão corretas."
 
 #: app/lib/ca/ConfigurationCheck.php:186
 msgid ""
@@ -6469,19 +6478,19 @@ msgid ""
 "directory (<i>%1</i>) to allow write access prior to installation. You can "
 "reload the installer to verify that the changed permissions are correct."
 msgstr ""
-"O diretório multimédia do CollectiveAccess não pode ser gravado pelo "
-"instalador. Isto irá prevenir a criação da estrutura do diretório multimédia "
-"e resultar em erros de instalação. É recomendável que altere as permissões "
-"neste diretório (<i>%1</i>) para permitir o acesso de gravação antes da "
-"instalação. Pode recarregar o instalador para verificar se as permissões "
-"alteradas estão corretas."
+"O processo de instalação NÃO TEM permissões de escrita no diretório "
+"destinado a conteúdos (\"media\") do CollectiveAccess. Isto irá impossibilitar "
+"a correta criação da estrutura do diretório multimédia e resultar em erros na "
+"instalação. É recomendável que altere as permissões neste diretório (<i>%1</i>) "
+"para permitir acesso de escrita antes da instalação. Pode recarregar o instalador "
+"para verificar se as novas permissões estão corretas."
 
 #: app/lib/ca/ConfigurationCheck.php:208
 msgid ""
 "Your MySQL installation doesn't support the InnoDB storage engine which is "
 "required by CollectiveAccess. For more information also see %1."
 msgstr ""
-"A instalação do MySQL não suporta o mecanismo de armazenamento InnoDB que é "
+"A instalação do MySQL disponível não suporta o mecanismo de armazenamento InnoDB que é "
 "exigido pelo CollectiveAccess. Para obter mais informações consulte também "
 "1%."
 
@@ -6490,33 +6499,37 @@ msgid ""
 "No database login information found. Have you specified it in your setup.php "
 "file?"
 msgstr ""
-"Não foi encontrada informação da base de dados de acesso. Especificou esta "
-"informação no seu ficheiro setup.php?"
+"Não foram encontrados as credênciais de acesso à Base de Dados. Verifique se esta "
+"informação foi especificada no ficheiro de configuração (setup.php)."
 
 #: app/lib/ca/ConfigurationCheck.php:222
 msgid ""
 "Could not connect to database. Did you enter your database login information "
 "into setup.php?"
 msgstr ""
-"Não foi possível ligar à base de dados. Inseriu a sua informação de acesso à "
-"base de dados no ficheiro setup.php?"
+"Não foi possível estabelecer ligação à base de dados. Verifique se esta informação "
+"foi expecificada no ficheiro de configuração (setup.php)."
 
 #: app/lib/ca/ConfigurationCheck.php:234
 msgid ""
 "It looks like you have not installed your database yet. Check your "
 "configuration or run the <a href=\"%1/install/\">installer</a>."
 msgstr ""
-"Parece que ainda não foi  instalada a sua base de dados. Verifique a sua "
-"configuração ou execute o<a href=\"%1/install/\">instalador</a>."
+"A instalação da base de dados parece ainda não ter sido efetuada. Verifique a "
+"configuração do  sistema ou execute o<a href=\"%1/install/\">instalador</a>."
 
 #: app/lib/ca/ConfigurationCheck.php:245
 msgid ""
 "Your database is extremely out-of-date. Please install all database "
-"migrations starting with migration #1 or contact support@collectiveaccess."
+"migrations starting with migration #%1 or contact support@collectiveaccess."
 "org for assistance. See the <a href=\"http://docs.collectiveaccess.org/wiki/"
 "Applying_Database_Updates\">update HOW-TO</a> for instructions on applying "
 "database updates manually."
-msgstr ""
+msgstr "A sua base de dados está extremamente desatualizada. Por favor instale todas "
+"as migrações começando pela migração #%1 ou contacte a equipa de suporte através de "
+"support@collectiveaccess.org. Consulte o manual <a href=\"http://docs.collectiveaccess.org/wiki/"
+"Applying_Database_Updates\">update HOW-TO</a> para instruções relacionadas com a "
+"autalização manual da base de dados"
 
 #: app/lib/ca/ConfigurationCheck.php:248
 msgid ""
@@ -6528,6 +6541,13 @@ msgid ""
 "><div align='center'><strong>NOTE: you should back-up your database before "
 "applying updates!</strong></div>"
 msgstr ""
+"A sua base de dados está desatualizada. Por favor instale todas as migrações "
+"começando pela migração #%1. <a href='index.php?updateSchema=1'><strong>Clique aqui</"
+"strong></a> para aplicar as atualizações necessárias automaticamente ou consulte o "
+"manual <a href=\"http://docs.collectiveaccess.org/wiki/Applying_Database_Updates\">update HOW-TO</a> "
+"para instruções relacionadas com a autalização manual da base de dados.<br/><br/"
+"><div align='center'><strong>NOTA: Antes de iniciar a atualização deverá efetuar uma "
+"cópia de seguraça da base de dados!</strong></div>"
 
 #: app/lib/ca/ConfigurationCheck.php:250
 msgid ""
@@ -6537,6 +6557,11 @@ msgid ""
 "database updates manually.<br/><br/><div align='center'><strong>NOTE: you "
 "should back-up your database before applying updates!</strong></div>"
 msgstr ""
+"A sua base de dados está desatualizada. Por favor instale todas as migrações "
+"começando pela migração #%1. Consulte o manual <a href=\"http://docs.collectiveaccess.org/wiki/"
+"Applying_Database_Updates\">update HOW-TO</a> para instruções relacionadas com "
+"a autalização manual da base de dados.<br/><br/><div align='center'><strong>NOTA: "
+"Antes de iniciar a atualização deverá efetuar uma cópia de seguraça da base de dados!</strong></div>"
 
 #: app/lib/ca/ConfigurationCheck.php:255 app/lib/ca/ConfigurationCheck.php:615
 #: app/lib/ca/ConfigurationCheck.php:618
@@ -6548,6 +6573,8 @@ msgid ""
 "CollectiveAccess requires PHP version 5.4 or higher to function properly. "
 "You're running %1. Please upgrade."
 msgstr ""
+"O Collective Access necessita da versão 5.4 (ou superior) de PHP para funcionar corretamente. "
+"Está a executar a versão %1. Por favor proceda à atualização."
 
 #: app/lib/ca/ConfigurationCheck.php:279
 msgid ""
@@ -6555,6 +6582,8 @@ msgid ""
 "webserver. Please change the permissions of %1 and enable the user which "
 "runs the webserver to write to this directory."
 msgstr ""
+"O servidor web parece não ter permissões de escrita na pasta destinada "
+"a ficheiros temporários. Por favor reveja as permissões da pasta %1."
 
 #: app/lib/ca/ConfigurationCheck.php:296
 msgid ""
@@ -6562,6 +6591,8 @@ msgid ""
 "change the permissions of %1 and enable the user which runs the webserver to "
 "write to this directory."
 msgstr ""
+"O servidor web parece não ter permissões de escrita na pasta destinada "
+"a cache. Por favor reveja as permissões da pasta %1."
 
 #: app/lib/ca/ConfigurationCheck.php:306
 msgid ""
@@ -6569,6 +6600,9 @@ msgid ""
 "change the permissions of %1 (or create it if it doesn't exist already) and "
 "enable the user which runs the webserver to write to this directory."
 msgstr ""
+"O servidor web parece não ter permissões de escrita na pasta destinada "
+"ao registo de dados de operação do sistema (log). Por favor reveja as "
+"permissões da pasta %1 (ou crie esse diretório caso ele não exista)."
 
 #: app/lib/ca/ConfigurationCheck.php:314
 msgid ""
@@ -6576,6 +6610,9 @@ msgid ""
 "change the permissions of %1 (or create it if it doesn't exist already) and "
 "enable the user which runs the webserver to write to this directory."
 msgstr ""
+"O servidor web parece não ter permissões de escrita na pasta destinada "
+"a conteúdos. Por favor reveja as permissões da pasta %1 (ou crie esse diretório "
+"caso ele não exista)."
 
 #: app/lib/ca/ConfigurationCheck.php:326
 msgid ""
@@ -6583,6 +6620,8 @@ msgid ""
 "webserver. Please change the permissions of %1 and enable the user which "
 "runs the webserver to write to this directory."
 msgstr ""
+"O servidor web parece não ter permissões de escrita na pasta destinada "
+"à filtragem de cache HTML. Por favor reveja as permissões da pasta %1."
 
 #: app/lib/ca/ConfigurationCheck.php:337
 msgid ""
@@ -6591,10 +6630,10 @@ msgid ""
 "suggestion because you accessed this script via &quot;&lt;your_hostname&gt;"
 "%2&quot;."
 msgstr ""
-"Parece que o  __CA_URL_ROOT__ variável no seu setup.php não está definido "
-"corretamente. Por favor tente configurá-lo  para &quot;%1&quot;. Demos-lhe "
-"esta sugestão porque  teve acesso a este script através de &quot;&lt;"
-"your_hostname&gt;%2&quot;. "
+"O parâmetro __CA_URL_ROOT__ parece estar definido de forma incorreta no ficheiro "
+"de configuração (setup.php). Por favor tente defini-lo como &quot;%1&quot;. "
+"Esta sugestão foi apresentada pelo facto de ter acedido a este script através "
+"de &quot;&lt;your_hostname&gt;%2&quot;."
 
 #: app/lib/ca/ConfigurationCheck.php:341
 msgid ""
@@ -6603,11 +6642,11 @@ msgid ""
 "suggestion because you accessed this script via &quot;&lt;your_hostname&gt;"
 "%2&quot;. Note that paths are case sensitive."
 msgstr ""
-"Parece que a variável __CA_URL_ROOT__ no seu setup.php não está definida "
-"corretamente. Por favor, tente configurá-lo para &quot;%1&quot;. Nós fizemos "
-"esta sugestão porque você acedeu a este script via &quot;&lt;"
-"your_hostname&gt;%2&quot;. Note-se que os caminhos são maiúsculas de "
-"minúsculas."
+"O parâmetro __CA_URL_ROOT__ parece estar definido de forma incorreta no ficheiro "
+"de configuração (setup.php). Por favor tente defini-lo como &quot;%1&quot;. "
+"Esta sugestão foi apresentada pelo facto de ter acedido a este script através "
+"de &quot;&lt;your_hostname&gt;%2&quot;. De notar que as localizações de ficheiros "
+"fazem distinção entre maiúsculas e minúsculas."
 
 #: app/lib/ca/ConfigurationCheck.php:356
 msgid ""
@@ -6615,9 +6654,9 @@ msgid ""
 "correctly. Please try to set it to &quot;%1&quot;. We came up with this "
 "suggestion because the location of this script is &quot;%2&quot;."
 msgstr ""
-"Parece que a variável __CA_BASE_DIR__ no seu setup.php não está definida "
-"corretamente. Por favor, tente configurá-lo para &quot;%1&quot;. Nós fizemos "
-"esta sugestão porque a localização deste script é &quot;%2&quot;."
+"O parâmetro __CA_BASE_DIR__ parece estar definido de forma incorreta no ficheiro "
+"de configuração (setup.php). Por favor tente defini-lo como &quot;%1&quot;. "
+"Esta sugestão foi apresentada pelo facto da localização deste script ser &quot;%2&quot;."
 
 #: app/lib/ca/ConfigurationCheck.php:360
 msgid ""
@@ -6626,98 +6665,99 @@ msgid ""
 "suggestion because the location of this script is &quot;%2&quot;. Note that "
 "paths are case sensitive."
 msgstr ""
-"Parece que a variável __CA_BASE_DIR__ no seu setup.php não está definida "
-"corretamente. Por favor, tente configurá-lo para &quot;%1&quot;. Nós fizemos "
-"esta sugestão porque a localização deste script é &quot;%2&quot;. Note-se "
-"que os caminhos são maiúsculas de minúsculas."
+"O parâmetro __CA_BASE_DIR__ parece estar definido de forma incorreta no ficheiro "
+"de configuração (setup.php). Por favor tente defini-lo como &quot;%1&quot;. "
+"Esta sugestão foi apresentada pelo facto da localização deste script ser &quot;%2&quot;."
+"De notar que as localizações de ficheiros fazem distinção entre maiúsculas e minúsculas."
 
 #: app/lib/ca/ConfigurationCheck.php:369
 msgid ""
 "PHP JSON module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"Módulo PHP JSON é necessário para o CollectiveAccess executar. Por favor, "
-"instale-o."
+"O CollectiveAccess necessita do módulo *JSON* do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:372
 msgid ""
 "PHP mbstring module is required for CollectiveAccess to run. Please install "
 "it."
 msgstr ""
-"Módulo PHP mbstring é necessário para o CollectiveAccess executar. Por "
-"favor, instale-o."
+"O CollectiveAccess necessita do módulo *mstring* do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:375
 msgid ""
 "PHP iconv module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"Módulo PHP iconv é necessário para o CollectiveAccess executar. Por favor, "
-"instale-o."
+"O CollectiveAccess necessita do módulo *iconv* do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:378
 msgid ""
 "PHP mysql or mysqli module is required for CollectiveAccess to run. Please "
 "install it."
 msgstr ""
+"O CollectiveAccess necessita do módulo *mysql* (ou *mysqli*) do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:381
 msgid ""
 "PHP zlib module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"Módulo PHP zlib é necessário para o CollectiveAccess executar. Por favor, "
-"instale-o."
+"O CollectiveAccess necessita do módulo *zlib* do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:384
 msgid ""
 "PHP PCRE module is required for CollectiveAccess to run. Please install it."
 msgstr ""
-"Módulo PHP PCRE é necessário para o CollectiveAccess executar. Por favor, "
-"instale-o."
+"O CollectiveAccess necessita do módulo *PCRE* do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:387
 msgid ""
 "PHP Document Object Model (DOM) module is required for CollectiveAccess to "
 "run. Please install it."
 msgstr ""
-"Módulo PHP Document Object Model (DOM) é necessário para CollectiveAccess "
-"executar. Por favor, instale-o."
+"O CollectiveAccess necessita do módulo *Document Object Model (DOM)* do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:390
 msgid ""
 "Either the mcrypt or openssl module are required for CollectiveAccess to "
 "run. Please install one of them (or both)."
 msgstr ""
+"O CollectiveAccess necessita dos módulos *mcrypt* ou *openssl*. Por favor instale um desses módulos (ou ambos)."
 
 #: app/lib/ca/ConfigurationCheck.php:393
 msgid ""
 "The PHP Message Digest (hash) engine is required for CollectiveAccess to "
 "run. Please install it."
 msgstr ""
+"O CollectiveAccess necessita do motor de codificação de mensagens (hash) do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:396
 msgid ""
 "Your PHP installation doesn't seem to have support for the sha256 hashing "
 "algorithm. Please install a newer version of either PHP or the hash module."
 msgstr ""
+"A instalação de PHP disponível parece não suportar o algoritmo de codificação sha256. "
+"Por favor instale uma versão mais recente de PHP ou do módulo de codificação (hash)."
 
 #: app/lib/ca/ConfigurationCheck.php:399
 msgid ""
 "The PHP phar module is required for CollectiveAccess to run. Please install "
 "it."
 msgstr ""
+"O CollectiveAccess necessita do módulo *phar* do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:402
 msgid ""
 "The PHP cURL module is required for CollectiveAccess to run. Please install "
 "it."
 msgstr ""
+"O CollectiveAccess necessita do módulo *cURL* do PHP. Por favor instale-o."
 
 #: app/lib/ca/ConfigurationCheck.php:406
 msgid ""
 "Your version of the PHP PCRE module lacks unicode features. Please install a "
 "module version with UTF-8 support."
 msgstr ""
-"A sua versão do módulo PHP PCRE não possui recursos unicode. Por favor, "
-"instale uma versão do módulo com suporte UTF-8."
+"A sua versão disponível do módulo *PCRE* do PHP não possui funcionalidades unicode. "
+"Por favor, instale uma versão do módulo que suporte UTF-8."
 
 #: app/lib/ca/ConfigurationCheck.php:416
 msgid ""
@@ -6725,9 +6765,9 @@ msgid ""
 "may only consist of alphanumeric ASCII characters and underscores (&quot;"
 "_&quot;)"
 msgstr ""
-"Parece que a configuração __CA_APP_NAME__ na sua setup.php é inválida. Só "
-"pode consistir em carateres alfanuméricos ASCII e sublinhados (& quot; _ & "
-"quot;)"
+"O parâmetro __CA_APP_NAME__ presente no ficheiro de configuração (setup.php) "
+"apresenta um valor inválido.  Este parâmetro apenas pode conter caracteres ASCII "
+"alfanuméricos e o carater underscore (&quot;_&quot;)"
 
 #: app/lib/ca/ConfigurationCheck.php:433
 msgid ""
@@ -6735,6 +6775,8 @@ msgid ""
 "webserver. Please change the permissions for %1 and enable the user which "
 "runs the webserver to write to this directory."
 msgstr ""
+"O servidor web parece não ter permissões de escrita num sub-diretório da pasta "
+"destinada a conteúdos. Por favor reveja as permissões da pasta %1."
 
 #: app/lib/ca/ConfigurationCheck.php:449
 msgid ""
@@ -6746,13 +6788,14 @@ msgid ""
 "feature like /etc/hosts on UNIX-based operating systems) so you have to be "
 "very careful when editing this."
 msgstr ""
-"Parece que a configuração __CA_SITE_HOSTNAME__ na sua setup.php pode estar "
-"incorreta. Se tiver quaisquer problemas com a apresentação da imagem, tente "
-"definir esta opção para &quot;%1&quot;. Fazemos esta sugestão, porque este é "
-"o nome do host usado para aceder a este script. Pode ser válida apenas para "
-"si (e não para outros utilizadores do sistema) embora (por exemplo, se usar "
-"o 'localhost' ou um recurso como/etc/hosts em sistemas operacionais baseados "
-"em UNIX) então tem de ter muito cuidado ao editar este campo."
+"O parâmetro __CA_SITE_HOSTNAME__ parece estar definido de forma incorreta no "
+"ficheiro de configuração (setup.php). Se tiver quaisquer problemas com a "
+"apresentação de imagens, tente configurar este parâmetro com &quot;%1&quot;. "
+"Esta sugestão foi apresentada pelo facto de ter sido este o nome do host usado "
+"para aceder a este script. Esta configuração poderá ser válida apenas para si "
+"(e não para outros utilizadores do sistema), por exemplo, se usar 'localhost' "
+"ou uma funcionalidade como /etc/hosts em sistemas operativos baseados em UNIX). "
+"Assim, este parâmetro deverá ser alterado de forma cautelosa."
 
 #: app/lib/ca/ConfigurationCheck.php:468
 msgid ""
@@ -6770,7 +6813,7 @@ msgstr ""
 "chamado) &quot;php.ini&quot;. Ver <a href=\"http://us.php.net/manual/en/ini."
 "core.php#ini.memory-limit\" target=\"_blank\">http://us.php.net/manual/en/"
 "ini.core.php</a> para obter mais detalhes. O valor na sua configuração é & "
-"quot;%1&quot ;, o valor recomendado é &quot;128M&quot; ou mais alto."
+"quot;%1&quot ;, o valor recomendado é &quot;128M&quot; ou superior."
 
 #: app/lib/ca/ConfigurationCheck.php:483
 msgid ""
@@ -6779,11 +6822,10 @@ msgid ""
 "both values limits the size of the files you can upload to CollectiveAccess. "
 "Your values: upload_max_filesize=%1 and post_max_size=%2."
 msgstr ""
-"Parece que as variáveis de configuração do PHP \"post_max_size\" e "
-"\"upload_max_filesize\" são definidas para valores diferentes. Note-se que o "
-"menor dos dois valores limita o tamanho dos ficheiros que você pode "
-"transferir para o CollectiveAccess. Os seus valores: upload_max_filesize=%1 "
-"e post_max_size=%2."
+"As variáveis de configuração do PHP \"post_max_size\" e \"upload_max_filesize\" "
+"parecem apresentar valores distintos. De notar que o menor dos dois valores "
+"limita o tamanho dos ficheiros que podem ser transferidos para o CollectiveAccess. "
+"Os seus valores: upload_max_filesize=%1 e post_max_size=%2."
 
 #: app/lib/ca/ConfigurationCheck.php:491
 msgid ""
@@ -6794,12 +6836,12 @@ msgid ""
 "should set them to values greater than the largest file you will upload to "
 "CollectiveAccess. Your values: upload_max_filesize=%1 and post_max_size=%2."
 msgstr ""
-"Parece que pelo menos uma das variáveis de configuração do PHP "
-"\"post_max_size\" e \"upload_max_filesize\" é definido como um valor muito "
-"baixo. Note-se que o menor dos dois valores limita o tamanho dos ficheiros "
-"que você pode fazer a transferência para o CollectiveAccess. Recomenda-se "
-"valores maiores que \"5M\", mas em geral você deve definir valores maiores "
-"que o maior ficheiro em que você fará a transferência para o "
+"Pelo menos um dos parâmetros de configuração do PHP \"post_max_size\" e "
+"\"upload_max_filesize\" parece estar definido com um valor demasiado baixo. "
+"De notar que o menor dos dois valores limita o tamanho dos ficheiros que "
+"podem ser transferidos para o CollectiveAccess. Recomenda-se que estes parâmetros "
+"sejam definidos com valores superiores a \"5M\", mas em geral devem ser definidos "
+"valores superiores ao tamanho do maior ficheiro que será transferido para o "
 "CollectiveAccess. Os seus valores: upload_max_filesize=%1 e post_max_size=%2."
 
 #: app/lib/ca/ConfigurationCheck.php:505 app/lib/ca/ConfigurationCheck.php:512
@@ -6809,9 +6851,9 @@ msgid ""
 "some default constraints than can prevent CA from saving information entered "
 "into forms."
 msgstr ""
-"Parece que você tem a extensão PHP Suhoshin instalada, a qual introduz "
-"algumas restrições padrão que podem impedir o CA de gravar informações "
-"inseridas em formulários."
+"Parece que a extensão *Suhoshin* do PHP está instalada no sistema. Esta extensão "
+"introduz algumas restrições podem impedir que o CA guarde informação inserida "
+"em formulários."
 
 #: app/lib/ca/ConfigurationCheck.php:506
 msgid ""
@@ -6819,9 +6861,8 @@ msgid ""
 "max_name_length\" to 256 or higher to ensure that CA works correctly. Your "
 "value is %1"
 msgstr ""
-"Em particular, você tem que definir a configuração do valor \"suhosin.post."
-"max_name_length\" para 256 ou superior para garantir que o CA funcione "
-"corretamente. O seu valor é %1"
+"Em particular, o parâmetro \"suhosin.post.max_name_length\" tem de ser definido "
+"como 256 ou superior para garantir que o CA funcione corretamente. O seu valor é %1"
 
 #: app/lib/ca/ConfigurationCheck.php:513
 msgid ""
@@ -6829,9 +6870,8 @@ msgid ""
 "max_varname_length\" to 256 or higher to ensure that CA works correctly. "
 "Your value is %1"
 msgstr ""
-"Em particular, você tem que definir a configuração do valor \"suhosin."
-"request.max_varname_length\" para 256 ou superior para garantir que o CA "
-"funcione corretamente. O seu valor é %1"
+"Em particular, o parâmetro \"suhosin.request.max_varname_length\" tem de ser definido "
+"como 256 ou superior para garantir que o CA funcione corretamente. O seu valor é %1"
 
 #: app/lib/ca/ConfigurationCheck.php:520
 msgid ""
@@ -6839,9 +6879,8 @@ msgid ""
 "max_totalname_length\" to 5012 or higher to ensure that CA works correctly. "
 "Your value is %1"
 msgstr ""
-"Em particular, você tem que definir a configuração do valor \"suhosin.post."
-"max_totalname_length\" para 5012 ou superior para garantir que a CA funcione "
-"corretamente. O seu valor é %1"
+"Em particular, o parâmetro \"suhosin.post.max_totalname_length\" tem de ser definido "
+"como 5012 ou superior para garantir que o CA funcione corretamente. O seu valor é %1"
 
 #: app/lib/ca/ConfigurationCheck.php:527
 msgid ""
@@ -6849,14 +6888,13 @@ msgid ""
 "max_totalname_length\" to 5012 or higher to ensure that CA works correctly. "
 "Your value is %1"
 msgstr ""
-"Em particular, você tem que definir a configuração do valor \"suhosin."
-"request.max_totalname_length\" para 5012 ou superior para garantir que o CA "
-"funciona corretamente. O seu valor é %1"
+"Em particular, o parâmetro \"suhosin.request.max_totalname_length\" tem de ser definido "
+"como 5012 ou superior para garantir que o CA funcione corretamente. O seu valor é %1"
 
 #: app/lib/ca/ConfigurationCheck.php:604
 msgid "Could not apply database update for migration %1"
 msgstr ""
-"Não foi possível aplicar atualização à base de dados para a migração %1"
+"Não foi possível aplicar a atualização da base de dados referente à migração %1"
 
 #: app/lib/ca/ConfigurationCheck.php:618
 msgid "The following tasks did not complete: %1"
@@ -6868,76 +6906,76 @@ msgstr "Migração aplicada %1"
 
 #: app/lib/ca/ConfigurationExporter.php:179
 msgid "Exporting changes for locale %1"
-msgstr ""
+msgstr "A exportar alterações para a localização %1"
 
 #: app/lib/ca/ConfigurationExporter.php:213
 msgid "Exporting deleted list %1"
-msgstr ""
+msgstr "A exporta a lista %1, previamente eliminada"
 
 #: app/lib/ca/ConfigurationExporter.php:270
 msgid "Exporting changes for list %1"
-msgstr ""
+msgstr "A exportar alterações para a lista %1"
 
 #: app/lib/ca/ConfigurationExporter.php:375
 msgid "Exporting deleted metadata element %1"
-msgstr ""
+msgstr "A exportar elemento de metadados %1, previamente eliminado"
 
 #: app/lib/ca/ConfigurationExporter.php:443
 #: app/lib/ca/ConfigurationExporter.php:562
 msgid "Exporting changes for element %1"
-msgstr ""
+msgstr "A exportar alterações ao elemento %1"
 
 #: app/lib/ca/ConfigurationExporter.php:721
 msgid "Exporting deleted editor %1"
-msgstr ""
+msgstr "A exportar editor %1, previamente eliminado"
 
 #: app/lib/ca/ConfigurationExporter.php:1006
 msgid "Exporting changes for editor %1"
-msgstr ""
+msgstr "A exportar alterações para o editor %1"
 
 #: app/lib/ca/ConfigurationExporter.php:1063
 msgid "Exporting deleted relationship type %1"
-msgstr ""
+msgstr "A exportar tipo de relação %1, previamente eliminado"
 
 #: app/lib/ca/ConfigurationExporter.php:1078
 msgid "Exporting changes for relationship type %1"
-msgstr ""
+msgstr "A exportar o tipo de relação %1"
 
 #: app/lib/ca/ConfigurationExporter.php:1159
 msgid "Exporting deleted role %1"
-msgstr ""
+msgstr "A exportar a função %1, previamente eliminada"
 
 #: app/lib/ca/ConfigurationExporter.php:1171
 msgid "Exporting changes for role %1"
-msgstr ""
+msgstr "A exportar alterações à função %1"
 
 #: app/lib/ca/ConfigurationExporter.php:1255
 msgid "Exporting deleted group %1"
-msgstr ""
+msgstr "A exportar o grupo %1, previamente eliminado"
 
 #: app/lib/ca/ConfigurationExporter.php:1267
 msgid "Exporting changes for group %1"
-msgstr ""
+msgstr "A exportar alterações ao grupo %1"
 
 #: app/lib/ca/ConfigurationExporter.php:1310
 msgid "Exporting deleted search form %1"
-msgstr ""
+msgstr "A exportar o formulário de pesquisa %1, previamente eliminado"
 
 #: app/lib/ca/ConfigurationExporter.php:1323
 msgid "Exporting changes for search form %1"
-msgstr ""
+msgstr "A exportar alterações ao formulário de pesquisa %1"
 
 #: app/lib/ca/ConfigurationExporter.php:1471
 msgid "Exporting deleted display %1"
-msgstr ""
+msgstr "A exportar a visualização %1, previamente eliminada"
 
 #: app/lib/ca/ConfigurationExporter.php:1486
 msgid "Exporting changes for display %1"
-msgstr ""
+msgstr "A exportar alterações à visualização %1"
 
 #: app/lib/ca/Export/ExportFormats/ExportCSV.php:41
 msgid "Values are column numbers (indexing starts at 1)."
-msgstr "Valores são colunas de números (indexação inicia em 1)."
+msgstr "Valores representam número de coluna (indexação começa com 1)."
 
 #: app/lib/ca/Export/ExportFormats/ExportCSV.php:96
 msgid "Element %1 is not numeric"
@@ -6949,7 +6987,7 @@ msgstr "Elemento %1 não é um número positivo"
 
 #: app/lib/ca/Export/ExportFormats/ExportCSV.php:103
 msgid "CSV exports can't be hierarchical"
-msgstr "As exportações de CSV não podem ser hierarquizadas"
+msgstr "As exportações de CSV não podem ser hierarquicas"
 
 #: app/lib/ca/Export/ExportFormats/ExportCSV.php:119
 #: app/models/ca_bundle_displays.php:1072
@@ -6979,8 +7017,8 @@ msgid ""
 "Character used to separate values. Typical values include commas, semicolons "
 "or tabs."
 msgstr ""
-"Caractere usado para separar valores. Os valores típicos incluem vírgulas, "
-"pontos e vírgulas ou guias."
+"Carater usado para separação de valores. Valores típicos incluem vírgulas (\",\"), "
+"ponto e vírgula (\";\") ou guias (tabs)."
 
 #: app/lib/ca/Export/ExportFormats/ExportCSV.php:128
 msgid "Enclosure"
@@ -6991,7 +7029,7 @@ msgid ""
 "Character used to enclose the text content in the export. Typical values are "
 "single or double quotes."
 msgstr ""
-"Carater usado para incluir o conteúdo de texto na exportação. Os valores "
+"Carater usado para delimitar conteúdo de texto na exportação. Os valores "
 "típicos são aspas simples ou duplas."
 
 #: app/lib/ca/Export/ExportFormats/ExportCSV.php:137
@@ -7000,29 +7038,31 @@ msgstr "Imprimir nomes dos campos"
 
 #: app/lib/ca/Export/ExportFormats/ExportCSV.php:138
 msgid "Print names of output fields in first row of output."
-msgstr "Imprimir os nomes dos campos de saída na primeira fila de saída."
+msgstr "Imprimir nome dos campos de saída na primeira na primeira linha do resultado."
 
 #: app/lib/ca/Export/ExportFormats/ExportExifTool.php:69
 msgid ""
 "Values are ExifTool XML element names. See http://www.sno.phy.queensu.ca/"
 "~phil/exiftool/metafiles.html#xml"
-msgstr ""
+msgstr "Valores são nomes de elementos XML ExifTool. Consulte ttp://www.sno.phy.queensu.ca/"
+"~phil/exiftool/metafiles.html#xml"
 
 #: app/lib/ca/Export/ExportFormats/ExportExifTool.php:134
 msgid "ExifTool must be installed and available!"
-msgstr ""
+msgstr "ExifTool tem de estar instalado e disponível!"
 
 #: app/lib/ca/Export/ExportFormats/ExportExifTool.php:150
 msgid ""
 "%1 is not a valid element for ExifTool exports. It must be in of one of the "
 "ExifTool namespaces."
-msgstr ""
+msgstr "%1 não é um elemento válido para exportações ExifTool."
 
 #: app/lib/ca/Export/ExportFormats/ExportExifTool.php:157
 msgid ""
 "ExifTool mappings can't be hierarchical. It looks like element %1 has "
 "children."
-msgstr ""
+msgstr "Mapeamentos ExifTool não podem ser hierárquicos. O elemento %1 "
+"aparenta ter sub-elementos"
 
 #: app/lib/ca/Export/ExportFormats/ExportMARC.php:43
 msgid ""
@@ -7031,10 +7071,10 @@ msgid ""
 "further information on how to create a MARC mapping, please refer to the "
 "CollectiveAccess online documentation."
 msgstr ""
-"Os valores de referência de uma combinação de MARC 21 marcas de campo e "
-"indicadores associados, separados por uma barra (\"/\"), por exemplo, \"300/"
-"##\". Para mais informações sobre como criar um mapeamento MARC, por favor "
-"consulte a documentação on-line no CollectiveAccess."
+"Os valores referem-se a uma combinação de etiquetas MARC 21 e indicadores "
+"associados separados por uma barra (\"/\"), por exemplo, \"300/##\". "
+"Para mais informações sobre como criar um mapeamento MARC, por favor "
+"consulte a documentação on-line do CollectiveAccess."
 
 #: app/lib/ca/Export/ExportFormats/ExportMARC.php:142
 msgid "Invalid MARC element definition %1"
@@ -7042,7 +7082,7 @@ msgstr "Definição de elemento MARC inválida %1"
 
 #: app/lib/ca/Export/ExportFormats/ExportMARC.php:151
 msgid "Invalid tag for MARC data field definition %1"
-msgstr "Etiqueta inválida para definição do campo de dados MARC %1"
+msgstr "Etiqueta inválida para definição de campo de dados MARC %1"
 
 #: app/lib/ca/Export/ExportFormats/ExportMARC.php:154
 msgid "Invalid indicator definition for MARC field %1"
@@ -7054,7 +7094,7 @@ msgstr "Etiqueta inválida para a definição do campo de controlo MARC %1"
 
 #: app/lib/ca/Export/ExportFormats/ExportMARC.php:168
 msgid "Invalid top-level MARC element definition %1"
-msgstr "Definição de elemento MARC de nível superior inválida %1"
+msgstr "Definição inválida de elemento MARC de nível superior %1"
 
 #: app/lib/ca/Export/ExportFormats/ExportMARC.php:182
 msgid "Mapping element %1 can't have subfields"
@@ -7062,7 +7102,7 @@ msgstr "O elemento de mapeamento %1 não pode ter subcampos"
 
 #: app/lib/ca/Export/ExportFormats/ExportMARC.php:191
 msgid "Subfield definition %1 is invalid"
-msgstr "Definição de sub campo %1 é inválida"
+msgstr "Definição inválida de subcampo %1"
 
 #: app/lib/ca/Export/ExportFormats/ExportMARC.php:215
 msgid "MARC export output format"
@@ -7082,9 +7122,9 @@ msgid ""
 "elements. The usual restrictions and naming conventions for XML elements and "
 "attributes apply."
 msgstr ""
-"Valores com o prefixo @ atributos XML de referência. Todos os outros valores "
-"definem elementos XML. As restrições atuais e convenções de nomenclatura "
-"para elementos XML e atributos que se aplicam."
+"Valores com o prefixo @ referenciam attributos XML. Todos os outros valores "
+"definem elementos XML. Aplicam-se as restrições e convenções de nomenclatura "
+"habituais para elementos e atributos XML."
 
 #: app/lib/ca/Export/ExportFormats/ExportXML.php:74
 msgid "XML export formatter: Done processing export tree ..."
@@ -7126,7 +7166,7 @@ msgstr ""
 
 #: app/lib/ca/HierarchicalReindexingProgress.php:80
 msgid "Rebuilding hierarchical index for %1"
-msgstr "Reconstruindo índice hierárquico para %1"
+msgstr "A reconstruir índice hierárquico para %1"
 
 #: app/lib/ca/HierarchicalReindexingProgress.php:93
 #: app/lib/ca/SortValueReloadingProgress.php:174
@@ -7142,11 +7182,11 @@ msgstr "'%1' não é válido para %2"
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:461
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:258
 msgid "'%1' is not valid for %2; only letters and numbers are allowed"
-msgstr "'%1' não é válido para %2; são permitidos apenas letras e números"
+msgstr "'%1' não é válido para %2; apenas são permitidos letras e números"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:467
 msgid "%1 must be set to %2; was %3"
-msgstr ""
+msgstr "%1 tem de ter o valor %2; estava definido com %3"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:473
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:498
@@ -7155,7 +7195,7 @@ msgstr ""
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:299
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:318
 msgid "%1 must not be shorter than %2 character"
-msgstr "%1 não deve ser inferior a %2 caractere"
+msgstr "%1 não pode ser inferior a %2 caractere"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:475
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:500
@@ -7164,7 +7204,7 @@ msgstr "%1 não deve ser inferior a %2 caractere"
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:301
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:320
 msgid "%1 must not be shorter than %2 characters"
-msgstr "%1 não deve ser inferior a %2 caracteres"
+msgstr "%1 não pode ser inferior a %2 caracteres"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:480
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:505
@@ -7173,7 +7213,7 @@ msgstr "%1 não deve ser inferior a %2 caracteres"
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:306
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:325
 msgid "%1 must not be longer than %2 character"
-msgstr "%1 não deve exceder os %2 caracteres"
+msgstr "%1 não pode exceder %2 caracter"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:482
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:507
@@ -7182,18 +7222,18 @@ msgstr "%1 não deve exceder os %2 caracteres"
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:308
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:327
 msgid "%1 must not be longer than %2 characters"
-msgstr "%1 deve ter a extensão máxima de %2 caracteres"
+msgstr "%1 não pode exceder %2 caracteres"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:491
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:292
 #: app/lib/core/BaseModel.php:5970
 msgid "%1 must not be less than %2"
-msgstr "%1 não deve ser menos que %2"
+msgstr "%1 não pode ser menor que %2"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:494
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:295
 msgid "%1 must not be more than %2"
-msgstr "%1 não deve ser mais do que %2"
+msgstr "%1 não pode ser maior do que %2"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:513
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:314
@@ -7202,22 +7242,22 @@ msgstr "%1 deve conter apenas letras e números"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:535
 msgid "%1 must be a valid two-digit year"
-msgstr "%1 deve ser um ano válido com dois dígitos "
+msgstr "%1 tem de ser um ano com dois dígitos válido"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:538
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:335
 msgid "%1 must be a valid year"
-msgstr "%1 deverá ser um ano válido"
+msgstr "%1 tem de ser um ano válido"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:545
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:342
 msgid "%1 must be a valid numeric month (between 1 and 12)"
-msgstr "%1 deve ser a indicação numérica válida de um mês (entre 1 e 12)"
+msgstr "%1 tem de ser uma representação numérica válida de um mês (entre 1 e 12)"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:552
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:349
 msgid "%1 must be a valid numeric day (between 1 and 31)"
-msgstr "%1 deve ser a indicação numérica válida de um dia  (entre 1 e 31)"
+msgstr "%1 tem de ser uma representação numérica válida de um dia  (entre 1 e 31)"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:990
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:992
@@ -7234,12 +7274,12 @@ msgstr "Erro"
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:1012
 #: themes/default/views/administrate/setup/elements_edit_html.php:72
 msgid "Value cannot be edited because it is in use"
-msgstr ""
+msgstr "Valor está a ser usado, pelo que não pode ser alterado"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:1014
 #: themes/default/views/administrate/setup/elements_edit_html.php:74
 msgid "Changing this value may break parts of the system configuration"
-msgstr ""
+msgstr "A alteração deste valor pode invalidar a configuração do sistema"
 
 #: app/lib/ca/IDNumbering/MultipartIDNumber.php:1040
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:772
@@ -7262,7 +7302,7 @@ msgstr ""
 
 #: app/lib/ca/IDNumbering/SMFMultipartIDNumber.php:264
 msgid "%1 must be set to %2"
-msgstr "%1 deve ser configurado para %2"
+msgstr "%1 tem de ser definido como %2"
 
 #: app/lib/ca/Import/BaseRefinery.php:90
 #: app/refineries/collectionSplitter/collectionSplitterRefinery.php:200
@@ -7321,7 +7361,7 @@ msgstr ""
 
 #: app/lib/ca/Import/DataReaders/CSVDelimitedDataReader.php:54
 msgid "Comma Delimited (CSV) Data Reader"
-msgstr "Leitor de Dados Delimitado por Vírgulas (CSV)"
+msgstr "Leitor de Dados Delimitados por Vírgulas (CSV)"
 
 #: app/lib/ca/Import/DataReaders/CSVDelimitedDataReader.php:55
 msgid "Comma Delimited (CSV)"
@@ -7342,7 +7382,7 @@ msgstr "Base de dados CollectiveAccess"
 #: app/lib/ca/Import/DataReaders/CollectiveAccessDataReader.php:65
 msgid "Reads data from CollectiveAccess databases via web services"
 msgstr ""
-"Lê dados da base de dados do CollectiveAccess através de serviços de internet"
+"Lê dados da base de dados do CollectiveAccess através de web services"
 
 #: app/lib/ca/Import/DataReaders/ExcelDataReader.php:55
 msgid "Excel XLSX data reader"
@@ -7394,15 +7434,15 @@ msgstr "Lê ficheiros Filemaker Pro XMLResult-format XML"
 
 #: app/lib/ca/Import/DataReaders/InmagicReader.php:95
 msgid "Inmagic XML Reader"
-msgstr "Leitor Inmagic XML"
+msgstr "Leitor XML Inmagic"
 
 #: app/lib/ca/Import/DataReaders/InmagicReader.php:96
 msgid "Inmagic XML"
-msgstr "Inmagic XML"
+msgstr "XML Inmagic"
 
 #: app/lib/ca/Import/DataReaders/InmagicReader.php:97
 msgid "Reads Inmagic XML files"
-msgstr "Lê ficheiros Inmagic XML"
+msgstr "Lê ficheiros XML Inmagic"
 
 #: app/lib/ca/Import/DataReaders/MARCDataReader.php:54
 msgid "MARC data reader"
@@ -7418,15 +7458,15 @@ msgstr "Lê ficheiros MARC"
 
 #: app/lib/ca/Import/DataReaders/MARCXMLReader.php:94
 msgid "MARC XML Reader"
-msgstr ""
+msgstr "Leitor de XML MARC"
 
 #: app/lib/ca/Import/DataReaders/MARCXMLReader.php:95
 msgid "MARC XML"
-msgstr ""
+msgstr "XML MARC"
 
 #: app/lib/ca/Import/DataReaders/MARCXMLReader.php:96
 msgid "Reads MARC XML files"
-msgstr ""
+msgstr "Lê ficheiros XML MARC"
 
 #: app/lib/ca/Import/DataReaders/MODSReader.php:94
 msgid "Metadata Object Description Schema (MODS) XML Reader"
@@ -7442,11 +7482,11 @@ msgstr ""
 
 #: app/lib/ca/Import/DataReaders/MediaBinReader.php:95
 msgid "MediaBin XML Reader"
-msgstr ""
+msgstr "Leitor XML MediaBIN"
 
 #: app/lib/ca/Import/DataReaders/MediaBinReader.php:96
 msgid "MediaBIN XML"
-msgstr ""
+msgstr "XML MediaBIN"
 
 #: app/lib/ca/Import/DataReaders/MediaBinReader.php:97
 msgid "Reads MediaBin XML export files"
@@ -7587,7 +7627,7 @@ msgstr "Lê dados do WorldCat através de serviços web"
 #: app/lib/core/BaseModel.php:11399 app/lib/core/BaseModel.php:11432
 #: app/lib/core/BaseModel.php:11465
 msgid "Invalid numeric operator: %1"
-msgstr ""
+msgstr "Operador numérico inválido: %1"
 
 #: app/lib/ca/LabelableBaseModelWithAttributes.php:680
 #: app/lib/ca/LabelableBaseModelWithAttributes.php:726
@@ -7614,7 +7654,7 @@ msgstr "O plugin de replicação %1 não existe"
 
 #: app/lib/ca/ObjectRelationshipBaseModel.php:45
 msgid "Media representation chooser"
-msgstr "Seletor de representação de imagem"
+msgstr "Seletor de representação de conteúdo"
 
 #: app/lib/ca/ProgressBar.php:203 app/lib/ca/ProgressBar.php:232
 #: app/lib/ca/ProgressBar.php:261 app/lib/ca/ProgressBar.php:284
@@ -7629,11 +7669,11 @@ msgstr "[ERRO] %1"
 #: app/lib/ca/RepresentableBaseModel.php:699
 #: app/lib/ca/RepresentableBaseModel.php:844
 msgid "Representation id=%1 does not exist"
-msgstr "ID de representação =%1 não existe"
+msgstr "Representação id=%1 não existe"
 
 #: app/lib/ca/RepresentableBaseModel.php:774
 msgid "Representation id=%1 is not related to %3 id=%2"
-msgstr ""
+msgstr "Representação id=%1 não está relacionada com %3 id=%2"
 
 #: app/lib/ca/RepresentationAnnotationPropertyCoders/ImageRepresentationAnnotationCoder.php:124
 msgid "Invalid numeric value '%1' for %2"
@@ -7649,7 +7689,7 @@ msgstr "Propriedade inválida '%1'"
 
 #: app/lib/ca/RepresentationAnnotationPropertyCoders/TimeBasedRepresentationAnnotationCoder.php:141
 msgid "Start must be less than end"
-msgstr "O início deve ser menor que o fim"
+msgstr "O início tem de ser menor que o fim"
 
 #: app/lib/ca/Search/QuickSearch.php:50 app/models/ca_set_items.php:65
 #: app/models/ca_sets.php:90 app/models/ca_user_sorts.php:59
@@ -7705,7 +7745,7 @@ msgstr "Ocorrências"
 #: app/conf/user_pref_defs.conf:613 app/conf/user_pref_defs.conf:683
 #: app/conf/user_pref_defs.conf:741 app/conf/user_pref_defs.conf:857
 msgid "Storage locations"
-msgstr "Localizações"
+msgstr "Localizações de armazenamento"
 
 #: app/lib/ca/Search/QuickSearch.php:56 app/models/ca_set_items.php:73
 #: app/models/ca_sets.php:98 app/models/ca_user_sorts.php:67
@@ -7749,7 +7789,8 @@ msgstr "Dados enviados via POST parecem não estar no formato JSON"
 
 #: app/lib/ca/Service/BaseJSONService.php:89
 msgid "Data sent via 'source' parameter doesn't seem to be in JSON format"
-msgstr ""
+msgstr "Dados enviados por intermédio do parâmetro 'source' aparentam não "
+"estar no formato JSON"
 
 #: app/lib/ca/Service/BaseJSONService.php:111
 msgid "Table does not exist"
@@ -7762,12 +7803,12 @@ msgstr "Não é permitido aceder diretamente a esta tabela"
 #: app/lib/ca/Service/BaseJSONService.php:168
 #: app/lib/ca/Service/BaseJSONService.php:171
 msgid "idno does not exist"
-msgstr "idno não existente"
+msgstr "idno inexistente"
 
 #: app/lib/ca/Service/BrowseService.php:70
 #: app/lib/ca/Service/BrowseService.php:119
 msgid "Getting results for browses without criteria is not supported"
-msgstr "Não é suportada a obtenção de dados para navegadores sem critérios"
+msgstr "Não é suportada a obtenção de dados para pesquisas sem critérios"
 
 #: app/lib/ca/Service/BrowseService.php:75
 #: app/lib/ca/Service/ItemService.php:95
@@ -7776,11 +7817,11 @@ msgstr "Método de pedido de HTTP inválido"
 
 #: app/lib/ca/Service/IIIFService.php:266
 msgid "Unsupported format %1"
-msgstr ""
+msgstr "Formato %1 não suportado"
 
 #: app/lib/ca/Service/ItemService.php:77
 msgid "Missing request body for PUT"
-msgstr "Falta corpo de solicitação para PUT"
+msgstr "Falta corpo do pedido PUT"
 
 #: app/lib/ca/Service/ItemService.php:90
 msgid "No identifier specified"
@@ -7788,18 +7829,18 @@ msgstr "Não foi especificado um identificador"
 
 #: app/lib/ca/Service/ItemService.php:715
 msgid "No intrinsic fields specified"
-msgstr "Não existem campos intrinsecamente especificados"
+msgstr "Não foram especificdos campos intrinsecos"
 
 #: app/lib/ca/Service/ModelService.php:54
 #: app/lib/ca/Service/ModelService.php:80
 #: app/lib/ca/Service/SearchJSONService.php:77
 msgid "Invalid request body format"
-msgstr "Formato de corpo de solicitação inválida"
+msgstr "Corpo de pedido com formato inválido"
 
 #: app/lib/ca/Service/ModelService.php:60
 #: app/lib/ca/Service/SearchJSONService.php:83
 msgid "Invalid HTTP request method for this service"
-msgstr "Método de solicitação HTTP inválido para este serviço"
+msgstr "Método HTTP inválido para este serviço"
 
 #: app/lib/ca/Service/OAIPMHService.php:156
 msgid "Invalid provider '%1'."
@@ -7815,7 +7856,7 @@ msgstr "Não foi especificado um verbo."
 
 #: app/lib/ca/Service/OAIPMHService.php:215
 msgid "Invalid verb specified."
-msgstr "O verbo especificado é inválido."
+msgstr "Verbo especificado inválido."
 
 #: app/lib/ca/Service/OAIPMHService.php:325
 msgid "Identifier is empty"
@@ -7824,7 +7865,7 @@ msgstr "Identificador está vazio"
 #: app/lib/ca/Service/OAIPMHService.php:338
 #: app/lib/ca/Service/OAIPMHService.php:348
 msgid "Identifier is invalid"
-msgstr "Identificador é inválido"
+msgstr "Identificador inválido"
 
 #: app/lib/ca/Service/OAIPMHService.php:355
 msgid "Identifier is deleted"
@@ -7837,7 +7878,7 @@ msgstr "Não existem seleções disponíveis "
 
 #: app/lib/ca/Service/OAIPMHService.php:413
 msgid "Sets are not supported"
-msgstr ""
+msgstr "Seleções (sets) não suportados"
 
 #: app/lib/ca/Service/OAIPMHService.php:516
 msgid "Query failed"
@@ -7853,11 +7894,11 @@ msgstr "Serviço CollectiveAccess OAI-PMH"
 
 #: app/lib/ca/Service/OAIPMHService.php:733
 msgid "Duplicate parameters in request"
-msgstr "Duplicar os parâmetros do pedido"
+msgstr "Parâmetros duplicados no pedido"
 
 #: app/lib/ca/Service/OAIPMHService.php:744
 msgid "Missing required parameter %1"
-msgstr "Falta parâmetro necessário %1"
+msgstr "Parâmetro mandatório %1 omisso"
 
 #: app/lib/ca/Service/OAIPMHService.php:747
 msgid "Unknown parameter %1"
@@ -7874,7 +7915,7 @@ msgstr "Parâmetro data/hora de diferente granularidade"
 
 #: app/lib/ca/Service/OAIPMHService.php:766
 msgid "Invalid format configuration"
-msgstr "Formato de configuração inválido"
+msgstr "Configuração de formato inválido"
 
 #: app/lib/ca/Service/OAIPMHService.php:771
 msgid "Unknown format %1"
@@ -7882,7 +7923,7 @@ msgstr "Formato desconhecido %1"
 
 #: app/lib/ca/Service/OAIPMHService.php:778
 msgid "Selected mapping %1 is invalid"
-msgstr "Mapeamento selecionado %1 é inválido"
+msgstr "Mapeamento selecionado %1 inválido"
 
 #: app/lib/ca/Service/OAIPMHService.php:783
 msgid "Exporter with code %1 does not exist"
@@ -7890,31 +7931,32 @@ msgstr "O exportador com o código %1 não existe"
 
 #: app/lib/ca/Service/OAIPMHService.php:786
 msgid "metadataPrefix or default_format is invalid"
-msgstr ""
+msgstr "metadataPrefix ou default_format inválido"
 
 #: app/lib/ca/Service/ReplicationService.php:206
 msgid "Could not upload file [%1] to target [%2]. HTTP response code was %3."
-msgstr ""
+msgstr "Não foi possível carregar o ficheiro [%1] para [%2]. Código de reposta ao pedido HTTP foi %3."
 
 #: app/lib/ca/Service/ReplicationService.php:208
 msgid ""
 "Could not upload file [%1] to target [%2]. HTTP response code was %3. "
 "Retrying (%4 remaining)"
-msgstr ""
+msgstr "Não foi possível carregar o ficheiro [%1] para [%2]. Código de reposta ao pedido HTTP foi %3. "
+"A tentar novamente (%4 restantes)"
 
 #: app/lib/ca/Service/ReplicationService.php:290
 msgid "Skip log entry"
-msgstr ""
+msgstr "Descartar entrada de log"
 
 #: app/lib/ca/Service/ReplicationService.php:302
 #: app/lib/ca/Service/ReplicationService.php:324
 msgid "Log entry was: %1"
-msgstr ""
+msgstr "Entrada de log era: %1"
 
 #: app/lib/ca/Service/ReplicationService.php:385
 msgid ""
 "It seems like there was an error while deduplicating records. Keys were: %1"
-msgstr ""
+msgstr "Aparentemente ocorreu um erro na duplicação de registos: %1"
 
 #: app/lib/ca/SiteComments.php:119 app/lib/ca/SiteComments.php:158
 #: app/lib/core/BaseModel.php:10432 app/lib/core/BaseModel.php:10496
@@ -7923,7 +7965,7 @@ msgstr "Id de comentário é inválido"
 
 #: app/lib/ca/SiteComments.php:164 app/lib/core/BaseModel.php:10509
 msgid "Comment was not created by specified user"
-msgstr "O comentário não foi criado por um utilizador específico "
+msgstr "O comentário não foi criado pelo utilizador especificado "
 
 #: app/lib/ca/SortValueReloadingProgress.php:156
 msgid "Representation"
@@ -7936,7 +7978,7 @@ msgstr "Tempo decorrido: %1"
 
 #: app/lib/ca/Sync/LogEntry/Attribute.php:54
 msgid "Could not find element with code '%1' on target system."
-msgstr ""
+msgstr "Não foi possível encontrar um elemento com o código '%1' no sistem alvo."
 
 #: app/lib/ca/Sync/LogEntry/Attribute.php:57
 msgid "We have an attribute log entry without element code."
@@ -7952,11 +7994,11 @@ msgstr ""
 
 #: app/lib/ca/Sync/LogEntry/Attribute.php:73
 msgid "Couldnt find ca_attributes record for guid %1."
-msgstr ""
+msgstr "Não foi possível encontrar registo ca_attributes para guid %1."
 
 #: app/lib/ca/Sync/LogEntry/AttributeValue.php:56
 msgid "Could not find element with code %1"
-msgstr ""
+msgstr "Não foi possível encontrar elemento com o código %1."
 
 #: app/lib/ca/Sync/LogEntry/AttributeValue.php:59
 msgid "No element code found in attribute value log entry"
@@ -7964,7 +8006,7 @@ msgstr ""
 
 #: app/lib/ca/Sync/LogEntry/AttributeValue.php:66
 msgid "Could not find attribute with guid %1"
-msgstr ""
+msgstr "Não foi possível encontrar atributo com guid %1"
 
 #: app/lib/ca/Sync/LogEntry/AttributeValue.php:69
 msgid "No attribute_guid found for attribute value log entry"
@@ -9264,7 +9306,7 @@ msgstr "Deve especificar um utilizador"
 
 #: app/lib/ca/Utils/CLIUtils.php:1804
 msgid "User name %1 does not exist"
-msgstr "Nome de utilizador %1 não existe"
+msgstr "Utilizador %1 não existe"
 
 #: app/lib/ca/Utils/CLIUtils.php:1809 app/lib/ca/Utils/CLIUtils.php:3689
 msgid "Password: "
@@ -9284,7 +9326,7 @@ msgstr "Alterada a palavra-passe para o utilizador %1"
 
 #: app/lib/ca/Utils/CLIUtils.php:1875 app/lib/ca/Utils/CLIUtils.php:1876
 msgid "User name to reset password for."
-msgstr "Nome do utilizador para repor a palavra-passe"
+msgstr "Utilizador para repor a palavra-passe"
 
 #: app/lib/ca/Utils/CLIUtils.php:1877
 msgid "New password for user"
@@ -11409,7 +11451,7 @@ msgstr "Tipo de item"
 #: app/lib/core/Plugins/InformationService/CollectiveAccess.php:78
 #: app/models/ca_users.php:63
 msgid "User name"
-msgstr "Nome de utilizador"
+msgstr "Utilizador"
 
 #: app/lib/core/Plugins/InformationService/CollectiveAccess.php:79
 msgid "User name to authenticate with on remote system."
@@ -27710,11 +27752,11 @@ msgstr ""
 #: themes/default/views/batch/mediaimport/import_options_html.php:333
 #: themes/default/views/batch/mediaimport/import_options_html.php:342
 msgid "Show advanced options"
-msgstr ""
+msgstr "Mostrar opções avançadas"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:342
 msgid "Hide advanced options"
-msgstr ""
+msgstr "Esconder opções avançadas"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:355
 msgid "Matching"
@@ -27752,7 +27794,7 @@ msgstr ""
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:498
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Vários"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:504
 msgid "Allow duplicate media?"
@@ -27760,7 +27802,7 @@ msgstr "Deseja permitir a duplicação de imagens?"
 
 #: themes/default/views/batch/mediaimport/import_options_html.php:530
 msgid "You are about to import files from <em>%1</em>"
-msgstr ""
+msgstr "Está prestes a importar ficheiros de <em>%1</em>"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:33
 msgid "Metadata import processing status"
@@ -27768,33 +27810,33 @@ msgstr ""
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:34
 msgid "Importing <em>%1</em> using <em>%2</em>"
-msgstr ""
+msgstr "A importar <em>%1</em> usando <em>%2</em>"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:58
 msgid "Perform another metadata import"
-msgstr ""
+msgstr "Executar novo ciclo de importação de metadados"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:80
 msgid "File %1/%2 [%3]"
-msgstr ""
+msgstr "Ficheiro %1/%2 [%3]"
 
 #: themes/default/views/batch/metadataimport/batch_results_html.php:97
 msgid "Errors during import"
-msgstr ""
+msgstr "Ocorreram erros durante a importação"
 
 #: themes/default/views/batch/metadataimport/confirm_html.php:61
 #: themes/default/views/batch/metadataimport/importer_list_html.php:112
 msgid "Import data"
-msgstr ""
+msgstr "Importar dados"
 
 #: themes/default/views/batch/metadataimport/confirm_html.php:66
 msgid "You are about to import data."
-msgstr ""
+msgstr "Está prestes a importar dados"
 
 #: themes/default/views/batch/metadataimport/confirm_html.php:118
 #: themes/default/views/batch/metadataimport/importer_run_html.php:33
 msgid "Execute data import"
-msgstr ""
+msgstr "Executar importação de dados"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:43
 msgid "Add importers"
@@ -27802,7 +27844,7 @@ msgstr "Adicionar importadores"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:44
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:55
 msgid "Drag importer worksheets here to add or update"
@@ -27810,24 +27852,24 @@ msgstr ""
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:74
 msgid "Mapping"
-msgstr ""
+msgstr "Mapeamento"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:77
 #: themes/default/views/manage/export/exporter_list_html.php:77
 msgid "Last modified"
-msgstr ""
+msgstr "Modificado"
 
 #: themes/default/views/batch/metadataimport/importer_list_html.php:88
 msgid "No importers defined"
-msgstr ""
+msgstr "Não estão definidos importadores"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:44
 msgid "Importer"
-msgstr ""
+msgstr "Importador"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:56
 msgid "Data format"
-msgstr ""
+msgstr "Formato de dados"
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:63
 msgid "Import all data sets"
@@ -27859,19 +27901,19 @@ msgstr ""
 
 #: themes/default/views/batch/metadataimport/importer_run_html.php:162
 msgid "You are about to import data using the <em>%1</em> importer"
-msgstr ""
+msgstr "Está prestes a importar dados usando o importador <em>%1</em>"
 
 #: themes/default/views/batch/metadataimport/widget_importer_info_html.php:34
 msgid "Importers"
-msgstr ""
+msgstr "Importadores"
 
 #: themes/default/views/batch/metadataimport/widget_importer_info_html.php:37
 msgid "1 importer is defined"
-msgstr ""
+msgstr "1 importador definido"
 
 #: themes/default/views/batch/metadataimport/widget_importer_info_html.php:39
 msgid "%1 importers are defined"
-msgstr ""
+msgstr "%1 importadores definidos"
 
 #: themes/default/views/bundles/authority_attribute.php:63
 #: themes/default/views/bundles/ca_collections.php:188
@@ -27905,7 +27947,7 @@ msgstr "Sem referências"
 #: themes/default/views/bundles/batch_change_type_html.php:57
 #: themes/default/views/bundles/change_type_html.php:56
 msgid "Change %1 type"
-msgstr ""
+msgstr "Alterar o tipo de %1"
 
 #: themes/default/views/bundles/batch_change_type_html.php:60
 #: themes/default/views/bundles/change_type_html.php:59
@@ -27918,7 +27960,7 @@ msgstr ""
 #: themes/default/views/bundles/batch_change_type_html.php:61
 #: themes/default/views/bundles/change_type_html.php:61
 msgid "Change type from <em>%1</em> to %2"
-msgstr ""
+msgstr "Alterar tipo de <em>%1</em> para %2"
 
 #: themes/default/views/bundles/ca_acl_access.php:48
 msgid "Global access"
@@ -27926,11 +27968,11 @@ msgstr "Acesso global"
 
 #: themes/default/views/bundles/ca_acl_access.php:52
 msgid "All groups and users "
-msgstr ""
+msgstr "Todos os grupos e utilizadores"
 
 #: themes/default/views/bundles/ca_acl_access.php:54
 msgid "this record, unless you create an exception"
-msgstr ""
+msgstr "este registo, salvo se for criada uma exceção"
 
 #: themes/default/views/bundles/ca_acl_access.php:62
 msgid "Edit Global Access"
@@ -27938,7 +27980,7 @@ msgstr ""
 
 #: themes/default/views/bundles/ca_acl_access.php:66
 msgid "Exceptions"
-msgstr ""
+msgstr "Exceções"
 
 #: themes/default/views/bundles/ca_acl_access.php:69
 msgid ""
@@ -27952,16 +27994,16 @@ msgstr ""
 
 #: themes/default/views/bundles/ca_acl_access.php:98
 msgid "Edit Exceptions"
-msgstr ""
+msgstr "Editr Exceções"
 
 #: themes/default/views/bundles/ca_acl_access.php:102
 msgid "Create an Exception"
-msgstr ""
+msgstr "Criar uma Exceção"
 
 #: themes/default/views/bundles/ca_acl_user_groups.php:56
 #: themes/default/views/bundles/ca_user_groups.php:57
 msgid "Group"
-msgstr ""
+msgstr "Grupo"
 
 #: themes/default/views/bundles/ca_acl_user_groups.php:82
 #: themes/default/views/bundles/ca_user_groups.php:84
@@ -27971,11 +28013,11 @@ msgstr "Adicionar acesso de grupo"
 #: themes/default/views/bundles/ca_acl_users.php:81
 #: themes/default/views/bundles/ca_users.php:83
 msgid "Add user access"
-msgstr ""
+msgstr "Adicionar acesso de utilizador"
 
 #: themes/default/views/bundles/ca_acl_world.php:48
 msgid "Everyone"
-msgstr ""
+msgstr "Todos"
 
 #: themes/default/views/bundles/ca_attributes.php:153
 #: themes/default/views/bundles/ca_set_items.php:70
@@ -28042,14 +28084,15 @@ msgid ""
 "Drag your selection from column to column to edit the contents of the "
 "display."
 msgstr ""
+"Arraste a sua seleção de coluna para coluna para editar o conteúdo do ecrã."
 
 #: themes/default/views/bundles/ca_bundle_display_placements.php:49
 msgid "Available information"
-msgstr ""
+msgstr "Informação disponível"
 
 #: themes/default/views/bundles/ca_bundle_display_placements.php:54
 msgid "Information to display"
-msgstr ""
+msgstr "Informação a apresentar"
 
 #: themes/default/views/bundles/ca_collections.php:178
 #: themes/default/views/bundles/ca_entities.php:183
@@ -28079,7 +28122,7 @@ msgstr "Adicionar relação"
 #: themes/default/views/bundles/ca_tour_stops.php:162
 #: themes/default/views/bundles/related_list.php:195
 msgid "Relation editor"
-msgstr ""
+msgstr "Editor de relações"
 
 #: themes/default/views/bundles/ca_editor_ui_bundle_placements.php:45
 msgid ""
@@ -28106,7 +28149,7 @@ msgstr ""
 
 #: themes/default/views/bundles/ca_entity_labels_preferred.php:204
 msgid "Label is already in use"
-msgstr ""
+msgstr "Etiqueta já em utilização"
 
 #: themes/default/views/bundles/ca_list_items.php:129
 msgid "No collection terms selected"
@@ -28119,7 +28162,7 @@ msgstr ""
 #: themes/default/views/bundles/ca_objects_history.php:120
 #: themes/default/views/bundles/ca_objects_location.php:37
 msgid "Update location"
-msgstr ""
+msgstr "Atualizar localização"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:52
 msgid "Current status"
@@ -28128,27 +28171,27 @@ msgstr "Estado atual"
 #: themes/default/views/bundles/ca_object_checkouts.php:59
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:56
 msgid "<strong>Status:</strong> %1"
-msgstr ""
+msgstr "<strong>Estado:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:68
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:58
 msgid "<strong>Borrowed by:</strong> %1 on %2"
-msgstr ""
+msgstr "<strong>Emprestado a:</strong> %1 em %2"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:70
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:60
 msgid "<strong>Due on:</strong> %1"
-msgstr ""
+msgstr "<strong>Termina a :</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:73
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:63
 msgid "<strong>Notes:</strong> %1"
-msgstr ""
+msgstr "<strong>Notas:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:78
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:68
 msgid "<strong>Reservations:</strong> %1"
-msgstr ""
+msgstr "<strong>Reservas:</strong> %1"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:84
 #: themes/default/views/bundles/ca_object_circulation_status_html.php:74
@@ -28190,11 +28233,11 @@ msgstr ""
 
 #: themes/default/views/bundles/ca_object_checkouts.php:110
 msgid "Returned"
-msgstr ""
+msgstr "Devolvido"
 
 #: themes/default/views/bundles/ca_object_checkouts.php:111
 msgid "Return notes"
-msgstr ""
+msgstr "Notas de devolução"
 
 #: themes/default/views/bundles/ca_object_lots.php:269
 msgid "Add lot"
@@ -28202,36 +28245,36 @@ msgstr "Adicionar lote"
 
 #: themes/default/views/bundles/ca_object_representation_captions.php:61
 msgid "VTT or SRT format caption file"
-msgstr ""
+msgstr "Ficheiro de legendas no formato VTT ou SRT"
 
 #: themes/default/views/bundles/ca_object_representation_captions.php:106
 msgid "Add caption file"
-msgstr ""
+msgstr "Adicionar ficheiro de legendas"
 
 #: themes/default/views/bundles/ca_object_representation_chooser_html.php:60
 msgid "No metadata element is configured"
-msgstr ""
+msgstr "Não estão definidos elementos de metadados"
 
 #: themes/default/views/bundles/ca_object_representations.php:90
 msgid "Number of representations: %1"
-msgstr ""
+msgstr "Total de representações: %1"
 
 #: themes/default/views/bundles/ca_object_representations.php:135
 #: themes/default/views/manage/export/export_destination_html.php:36
 msgid "File name"
-msgstr ""
+msgstr "Nome do ficheiro"
 
 #: themes/default/views/bundles/ca_object_representations.php:137
 msgid "File name: %1"
-msgstr ""
+msgstr " Nome do ficheiro: %1"
 
 #: themes/default/views/bundles/ca_object_representations.php:141
 msgid "Format"
-msgstr ""
+msgstr "Formato"
 
 #: themes/default/views/bundles/ca_object_representations.php:142
 msgid "Dimensions"
-msgstr ""
+msgstr "Dimensões"
 
 #: themes/default/views/bundles/ca_object_representations.php:151
 msgid "Will be primary after save"
@@ -28239,7 +28282,7 @@ msgstr ""
 
 #: themes/default/views/bundles/ca_object_representations.php:152
 msgid "Changes will be applied when you save"
-msgstr ""
+msgstr "Alterações serão aplicadas ao guardar"
 
 #: themes/default/views/bundles/ca_object_representations.php:167
 msgid "Update media"
@@ -28258,7 +28301,7 @@ msgstr "do URL"
 #: themes/default/views/bundles/ca_object_representations.php:187
 #: themes/default/views/dashboard/dashboard_html.php:74
 msgid "Done"
-msgstr "Feito"
+msgstr "Concluir"
 
 #: themes/default/views/bundles/ca_object_representations.php:216
 msgid "Make primary"
@@ -28270,7 +28313,7 @@ msgstr "Editar registo completo"
 
 #: themes/default/views/bundles/ca_object_representations.php:231
 msgid "Annotations"
-msgstr ""
+msgstr "Anotações"
 
 #: themes/default/views/bundles/ca_object_representations.php:234
 msgid "Set center"
@@ -28282,7 +28325,7 @@ msgstr "Replicação"
 
 #: themes/default/views/bundles/ca_object_representations.php:248
 msgid "Loading"
-msgstr "Carregando"
+msgstr "A carregar"
 
 #: themes/default/views/bundles/ca_object_representations.php:293
 msgid "Add representation with relationship type %1"
@@ -28484,25 +28527,25 @@ msgstr ""
 
 #: themes/default/views/bundles/floorplan_viewer.php:37
 msgid "Editing floor plan for <em>%1</em>"
-msgstr ""
+msgstr "A editar planta de piso para <em>%1</em>"
 
 #: themes/default/views/bundles/hierarchy_location.php:182
 #: themes/default/views/bundles/hierarchy_navigation.php:68
 msgid "Number of %1 in hierarchy: %2"
-msgstr ""
+msgstr "Total de %1 na hierarquia: %2"
 
 #: themes/default/views/bundles/hierarchy_location.php:184
 #: themes/default/views/bundles/hierarchy_location.php:408
 msgid "Show Hierarchy"
-msgstr ""
+msgstr "Mostrar Hierarquia"
 
 #: themes/default/views/bundles/hierarchy_location.php:229
 msgid "Explore"
-msgstr ""
+msgstr "Explorar"
 
 #: themes/default/views/bundles/hierarchy_location.php:233
 msgid "Move"
-msgstr ""
+msgstr "Mover"
 
 #: themes/default/views/bundles/hierarchy_location.php:238
 msgid "Add level"
@@ -28521,7 +28564,7 @@ msgstr "Encontrar"
 #: themes/default/views/bundles/hierarchy_location.php:254
 msgid ""
 "Click %1 names to explore. Click on an arrow icon to open a %1 for editing."
-msgstr ""
+msgstr "Clique nos nomes de %1 para explorar. Clique no icone <b>\">\"</b> para abrir %1 para edição."
 
 #: themes/default/views/bundles/hierarchy_location.php:269
 msgid "Click on an arrow to choose the location to move this record under."
@@ -28609,11 +28652,11 @@ msgstr "Adicionar um Widget"
 
 #: themes/default/views/dashboard/dashboard_html.php:69
 msgid "Clear dashboard"
-msgstr ""
+msgstr "Limpar Painel de Controlo"
 
 #: themes/default/views/dashboard/dashboard_html.php:72
 msgid "Edit dashboard"
-msgstr ""
+msgstr "Editar Painel de Controlo"
 
 #: themes/default/views/dashboard/dashboard_html.php:73
 msgid "Add widget"
@@ -28625,7 +28668,10 @@ msgid ""
 "button above to add widgets to your dashboard that will allow you to monitor "
 "system activity.  You'll see your dashboard whenever you login or  click the "
 "CollectiveAccess logo above."
-msgstr ""
+msgstr "Este é o seu Painel de Controlo do CollectiveAccess. Clique no botão <b>Editar Painel de Controlo</b> "
+"para adicionar widgets que lhe permitirão monitorizar a atividade do sistema. "
+"O Painel de Controlo será apresentado após autenticação com sucesso no <i>Providence</i> ou ao clicar "
+"no logótipo <i>CollectiveAccess</i>."
 
 #: themes/default/views/dashboard/dashboard_html.php:78
 msgid ""
@@ -28637,12 +28683,17 @@ msgid ""
 "of the widget.  Click the \"Clear dashboard\" button above to remove all "
 "widgets from your dashboard.  When you are finished editing your dashboard, "
 "click the \"Done\" button above."
-msgstr ""
+msgstr "Utilize o botão <b>Adicionar widget</b> acima para adicionar widgets ao <i>Painel de Controlo</i>. "
+"Pode arrastar widgets para a coluna da esquerda ou da direita na ordem que deseja que sejam apresentados. "
+"Para customizar a informação de cada widget, clique no botão <i>\"i\"</i> localizado no canto superior direito do widget. "
+"Para remover um widget do <i>Painel de Controlo</i> clique no botão <i>\"X\"</i> localizado no canto superior direito do widget. "
+"Clique no botão <b>Limpar Painel de Controlo</b> para remover todos os widgets do <i>Painel de Controlo</i>. "
+"Quando terminar, clique no botão <b>Concluir</b>."
 
 #: themes/default/views/dashboard/dashboard_html.php:83
 #: themes/default/views/dashboard/dashboard_html.php:92
 msgid "To place a dashboard widget in this column drag it here"
-msgstr ""
+msgstr "Para adicionar um widget a esta coluna, arraste-o para aqui"
 
 #: themes/default/views/editor/collections/quickadd_html.php:54
 #: themes/default/views/editor/entities/quickadd_html.php:54
@@ -29855,7 +29906,7 @@ msgstr ""
 #: themes/default/views/system/forgot_password_html.php:62
 #: themes/default/views/system/login_html.php:66
 msgid "User Name"
-msgstr "Nome de utilizador"
+msgstr "Utilizador"
 
 #: themes/default/views/system/logged_out_html.php:61
 msgid "Login again"
